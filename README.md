@@ -669,6 +669,20 @@ Manager (SaaS). Instead, please verify the following:
 
 # Troubleshooting
 
+## Pre-Session and Session Issues
+
+For the purpose of troubleshooting, it can be helpful to first identify whether 
+the problem occured during the connection attempt (pre-session) or during the PCoIP session. 
+
+**Pre-session Issues**
+A Pre-session issue is any problem that occurs before the session has been fully initalized. For example, a user attempts to connect to their remote machine but it fails due to the Agent being unreachable. This would be considered a pre-session issue as it occured during the connection attempt. 
+
+**Session Issues**
+A Session issue is any problem which occurs during the PCoIP session - after a successful connection attempt. Some examples are lag/sluggishness, an unintended disconnection while working, etc. Log files such as the pcoip client log and the pcoip-server log should be used for debugging. Keep in mind, the pcoip-server log is only generated if a PCoIP session has been initated. If the server log is not present then we can assume it is not a session issue.
+
+> [!TIP]
+> **Key Takeaway:** Reader should be able to identify pre-session vs session issues.
+
 ## Capturing Logs
 
 If you encounter an issue while installing or using HP Anyware
@@ -705,7 +719,8 @@ statistics are stored in the PCoIP server logs. Refer to the
 [guide](https://anyware.hp.com/knowledge/how-to-identify-network-issues-in-pcoip-logs)
 on how to identify the network issues in the PCoIP logs.
 
-## Session Issues
+
+## Session disconnects
 
 A session disconnect occurs when an active HP Anyware Session is
 unexpectedly terminated. This can happen due to issues such as VPN
