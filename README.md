@@ -246,10 +246,10 @@ Installing, Configuring, Features, Troubleshooting.
   Guide](https://anyware.hp.com/components/software-client-for-windows/24.10/documentation/administrators-guide/overview)
 
 - [Anyware client 24.10 for macOS Administrators'
-  Guide](https://anyware.hp.com/component/software-client-for-macos/24.07.3/documentation/software-client-for-macos-24.07-25)
+  Guide](https://anyware.hp.com/components/software-client-for-macos/24.10/documentation/administrators-guide/overview)
 
-- [Anyware client for 24.07.3 Linux Administrators'
-  Guide](https://anyware.hp.com/component/software-client-for-linux/24.07.3/documentation/software-client-for-linux-24.07-28)
+- [Anyware client for 24.10 Linux Administrators'
+  Guide](https://anyware.hp.com/components/software-client-for-linux/24.10/documentation/administrators-guide/overview)
 
 Also Read:
 * [Collaboration](https://anyware.hp.com/components/software-client-for-windows/24.10/documentation/administrators-guide/feature-support/collaboration#collaboration)
@@ -274,19 +274,19 @@ Agent. Key Sections of the guide include the System requirements,
 Installing, Configuring, Features, Troubleshooting.
 
 - [Anyware Graphics Agent for
-  Windows](https://anyware.hp.com/component/graphics-agent-for-windows/24.07.3/documentation/graphics-agent-for-windows-24.07-38)
+  Windows](https://anyware.hp.com/components/graphics-agent-for-windows/24.10/documentation/administrators-guide/overview)
 
 - [Anyware Graphics Agent for
-  Linux](https://anyware.hp.com/component/graphics-agent-for-linux/24.07.3/documentation/graphics-agent-for-linux-24.07-17)
+  Linux](https://anyware.hp.com/components/graphics-agent-for-linux/24.10/documentation/administrators-guide/overview)
 
 - [Anyware Graphics Agent for
-  macOS](https://anyware.hp.com/component/graphics-agent-for-macos/24.07.3/documentation/graphics-agent-for-macos-24.07-22)
+  macOS](https://anyware.hp.com/components/graphics-agent-for-macos/24.10/documentation/administrators-guide/overview)
 
 - [Anyware Standard Agent for
-  Windows](https://anyware.hp.com/component/standard-agent-for-windows/24.07.3/documentation/standard-agent-for-windows-24.07-34)
+  Windows](https://anyware.hp.com/components/standard-agent-for-windows/24.10/documentation/administrators-guide/overview)
 
 - [Anyware Standard Agent for
-  Linux](https://anyware.hp.com/component/standard-agent-for-linux/24.07.3/documentation/standard-agent-for-linux-24.07-17)
+  Linux](https://anyware.hp.com/components/standard-agent-for-linux/24.10/documentation/administrators-guide/overview)
 
 Also Read:
 * [Collaboration](https://anyware.hp.com/components/standard-agent-for-windows/24.10/documentation/administrators-guide/feature-support/collaboration#collaboration)
@@ -396,7 +396,7 @@ where your Anyware Manager is hosted by HP in the Cloud; and as an
 installable instance deployed and managed by the customer, in their
 on-premises or cloud environment.
 > [!NOTE]
-> [Anyware Manager Guide Link](https://anyware.hp.com/web-help/anyware_manager/24.03.2/#anyware-manager-24032)
+> [Anyware Manager Guide Link](https://anyware.hp.com/web-help/anyware_manager/24.10.1/)
 >
 > [Anyware Manager as a Service Guide Link](https://anyware.hp.com/web-help/cas_manager_as_a_service/#what-is-anyware-manager-as-a-service)
 
@@ -461,7 +461,7 @@ transferring them to the target darksite machine, and then
 running the installation script.
 
 > [!NOTE]
-> [Anyware Connector Guide Link](https://anyware.hp.com/web-help/anyware_manager_connector/24.07/#anyware-connector-2407)
+> [Anyware Connector Guide Link](https://anyware.hp.com/web-help/anyware_manager_connector/24.10/)
 > 
 > [Anyware Connector Installation](https://anyware.hp.com/web-help/anyware_manager_connector/24.10/anyware_connector/awc_connector_install/)
 > 
@@ -520,9 +520,9 @@ troubleshooting, but not recommended for production use.
 
 Read:
 * [FAQ Security](https://anyware.hp.com/knowledge/faqs-security)
-* [Architecture Guide \| Security](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.07/security/security/)
+* [Architecture Guide \| Security](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.10/security/security/)
 * [General certificate info](https://anyware.hp.com/knowledge/understanding-digital-certificates)
-* [Connector Certificate Preparation](https://anyware.hp.com/web-help/anyware_manager_connector/24.07/anyware_connector/prerequisite/awc_expected_cert/)
+* [Connector Certificate Preparation](https://anyware.hp.com/web-help/anyware_manager_connector/24.10/anyware_connector/prerequisite/awc_expected_cert/)
 
 ## Third party Broker + Connection Manager/Security Gateway (CMSG)
 
@@ -564,7 +564,7 @@ gateway failover, or for scaling large systems.
 
 > [!NOTE]
 > **Guide Link:**
-> [PCoIP Connection Manager And Security Gateway](https://anyware.hp.com/web-help/pcoip_connection_manager_security_gateway/24.07/#hp-pcoip-connection-manager-and-security-gateway)
+> [PCoIP Connection Manager And Security Gateway](https://anyware.hp.com/web-help/pcoip_connection_manager_security_gateway/24.10/#hp-pcoip-connection-manager-and-security-gateway)
 
 > [!TIP]
 > **Key Takeaway:** Reader should be able to:
@@ -582,7 +582,7 @@ Gateway.
 
 > [!NOTE]
 > **Guide Link:**
-> [Using Third Party Connection Brokers](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.07/using_third_party_connection_brokers/overview/)
+> [Using Third Party Connection Brokers](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.10/using_third_party_connection_brokers/overview/)
 
 > [!TIP]
 > **Key Takeaway:** Reader should be able to provide guidance on
@@ -601,7 +601,7 @@ Please refer back to these links when completing the Practical Application secti
 
 | Download Link | [Windows](https://anyware.hp.com/find/product/hp-anyware/2024.07/software-client-for-windows) | [Linux](https://anyware.hp.com/find/product/hp-anyware/2024.07/software-client-for-linux) | [MacOS](https://anyware.hp.com/find/product/hp-anyware/2024.07/software-client-for-macos) |
 |:--:|:--:|:--:|:--:|
-| Installation Link | [Windows](https://anyware.hp.com/component/software-client-for-windows/24.07.3/documentation/software-client-for-windows-24.07-30) | [Linux](https://anyware.hp.com/component/software-client-for-linux/24.07.3/documentation/software-client-for-linux-24.07-30) | [MacOS](https://anyware.hp.com/component/software-client-for-macos/24.07.3/documentation/software-client-for-macos-24.07-27) |
+| Installation Link | [Windows](https://anyware.hp.com/components/software-client-for-windows/24.10/documentation/administrators-guide/installing/installing-the-windows-client) | [Linux](https://anyware.hp.com/components/software-client-for-linux/24.10/documentation/administrators-guide/installation/installing-the-anyware-software-client-for-linux) | [MacOS](https://anyware.hp.com/components/software-client-for-macos/24.10/documentation/administrators-guide/installation/installing-the-macos-client) |
 
 ## Anyware Agent links
 
