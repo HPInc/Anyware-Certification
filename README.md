@@ -353,7 +353,7 @@ model to choose.**
 <img src="media/image1.png" style="width:5.59375in;height:4.39583in" />
 
 
-**Viewing License Information**
+### Viewing License Information
 To view the status of the licenses, use the **_pcoip-list-licenses_** command. 
 This command requires administrator password, and provides information
 about licenses that have been activated on HP Anyware License Server.
