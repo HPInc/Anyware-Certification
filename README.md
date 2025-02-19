@@ -89,6 +89,9 @@ refine that image, a process termed "build to perceptually lossless".
 > [!NOTE]
 > **Guide Link:**
 > [What is PCoIP Technology?](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.07/about-pcoip/#what-is-pcoip-technology)
+> 
+> **Guide Link:**
+> [Key Benefits of PCoIP Technology](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.10/about-pcoip/#key-benefits-of-pcoip-technology)
 
 > [!TIP]
 > **Key Takeaway:** Reader should be able to explain the PCoIP protocol and its key benefits.
@@ -221,6 +224,20 @@ machines running the Anyware Agents or equipped with a Remote
 Workstation Card. The Client is responsible for sending user input to
 the remote machine such as keyboard, mouse, microphone, etc.
 
+The Anyware Client supports a maximum of four displays and a 
+maximum resolution of 4K UHD (3840×2160). Monitors can be arranged
+in a vertical line, a horizontal line, or as a 2×2 box display. 
+Stereo audio output and mono audio input are supported and enabled 
+by default. When an audio device is enabled and used in a session,
+it is saved as user preferences, and becomes available as the 
+default audio for future sessions. PCoIP Ultra Collaboration enables 
+a PCoIP session user to share their session with multiple remote
+collaborators using Anyware Software Clients. Enhanced Audio and 
+Video Synchronization (AV Lock) provides improved full-screen
+video playback, reducing the difference in delays between
+the audio and video channels and smoothing frame playback
+on the client. 
+
 This guide explains how to install, configure, and use the Software
 Client. Key Sections of the guide include the System requirements,
 Installing, Configuring, Features, Troubleshooting.
@@ -234,6 +251,12 @@ Installing, Configuring, Features, Troubleshooting.
 - [Anyware client for 24.07.3 Linux Administrators'
   Guide](https://anyware.hp.com/component/software-client-for-linux/24.07.3/documentation/software-client-for-linux-24.07-28)
 
+Also Read:
+* [Collaboration](https://anyware.hp.com/components/software-client-for-windows/24.10/documentation/administrators-guide/feature-support/collaboration#collaboration)
+* [Displays](https://anyware.hp.com/components/software-client-for-windows/24.10/documentation/administrators-guide/feature-support/displays#displays)
+* [Audio](https://anyware.hp.com/components/software-client-for-windows/24.10/documentation/administrators-guide/feature-support/audio#audio_support)
+* [Enhanced Audio & Video Synchronization](https://anyware.hp.com/components/software-client-for-windows/24.10/documentation/administrators-guide/in-session-actions/enhanced-audio-and-video-synchronization#enhanced_audio_and_video_synchronization)
+
 > [!TIP]
 > **Key Takeaway:** Reader should be able to describe the HP Anyware
 > Client Software and navigate the administrator guide. Installation and
@@ -245,7 +268,6 @@ The Anyware Agent is a standalone software application installed on a
 remote machine that will securely encode the screen and efficiently
 stream (pixels-only) to the Anyware Client. There are two available
 Agent types for supporting both standard and graphics PC architectures.
-
 
 This guide explains how to install, configure, and use the Anyware
 Agent. Key Sections of the guide include the System requirements,
@@ -265,6 +287,12 @@ Installing, Configuring, Features, Troubleshooting.
 
 - [Anyware Standard Agent for
   Linux](https://anyware.hp.com/component/standard-agent-for-linux/24.07.3/documentation/standard-agent-for-linux-24.07-17)
+
+Also Read:
+* [Collaboration](https://anyware.hp.com/components/standard-agent-for-windows/24.10/documentation/administrators-guide/feature-support/collaboration#collaboration)
+* [Displays](https://anyware.hp.com/components/standard-agent-for-windows/24.10/documentation/administrators-guide/feature-support/displays)
+* [PCoIP Ultra](https://anyware.hp.com/components/standard-agent-for-windows/24.10/documentation/administrators-guide/feature-support/pcoip-ultra#pcoip_ultra)
+* [Wacom Tablets](https://anyware.hp.com/components/standard-agent-for-windows/24.10/documentation/administrators-guide/feature-support/usb/wacom-tablets#bridged_wacom_tablets)
 
 > [!IMPORTANT]
 > Please note that we only recommend using the Standard Agent on Virtual Machines.
