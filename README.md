@@ -352,15 +352,30 @@ model to choose.**
 
 <img src="media/image1.png" style="width:5.59375in;height:4.39583in" />
 
+
+**Viewing License Information**
+To view the status of the licenses, use the **_pcoip-list-licenses_** command. 
+This command requires administrator password, and provides information
+about licenses that have been activated on HP Anyware License Server.
+
+You can provide the administrator password inline using -p. 
+If you do not, it will prompt you for a password.
+
+The information returned by **_pcoip-list-licenses_** includes:
+- The number of activated licenses
+- The number of used licenses
+- The expire dates of features or session licenses
+  
+
 > [!NOTE]
 > **Guide Link:**
->  * [HP Anyware Licensing Models](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.07/licensing_models/licensing_models_on_prem/#hp-anyware-licensing-models)
+>  * [HP Anyware Licensing Models](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.10/licensing_models/licensing_models_on_prem/#hp-anyware-licensing-models)
 >
 >  * [Licensing FAQ’s KB Article](https://anyware.hp.com/knowledge/faq-licensing-hp-anyware)
 >
 >  * [License Portal](https://anyware.hp.com/knowledge/how-to-use-the-hp-anyware-licensing-portal)
 >
->  * [Admin guide: Instructions for licensing the Agent](https://anyware.hp.com/component/standard-agent-for-windows/24.07.3/documentation/standard-agent-for-windows-24.07-26)
+>  * [Admin guide: Instructions for licensing the Agent](https://anyware.hp.com/components/standard-agent-for-windows/24.10/documentation/administrators-guide/installation-guide/2.-licensing-the-agent#licensing_the_standard_agent_for_windows)
 
 > [!TIP]
 > **Key Takeaway:** Reader should be able to:
@@ -376,7 +391,7 @@ enables highly scalable and cost-effective HP Anyware deployments by
 managing cloud compute costs by brokering PCoIP connections to remote
 Windows or Linux workstations.
 
-Anyware Manager is offered in two variants: Anyware Manager as a service
+Anyware Manager is offered in two variants: Anyware Manager as a Service
 where your Anyware Manager is hosted by HP in the Cloud; and as an
 installable instance deployed and managed by the customer, in their
 on-premises or cloud environment.
@@ -384,6 +399,14 @@ on-premises or cloud environment.
 > [Anyware Manager Guide Link](https://anyware.hp.com/web-help/anyware_manager/24.03.2/#anyware-manager-24032)
 >
 > [Anyware Manager as a Service Guide Link](https://anyware.hp.com/web-help/cas_manager_as_a_service/#what-is-anyware-manager-as-a-service)
+
+
+Also Read:
+* [Anyware Manager Default Installation](https://anyware.hp.com/web-help/anyware_manager/24.10.1/anyware_manager/awm_default_installation/)
+* [Admin Console Dashboard](https://anyware.hp.com/web-help/anyware_manager/24.10.1/anyware_manager/admin_console/awm_admin_console_overview/)
+* [Backup & Restore Anyware Manager Data](https://anyware.hp.com/web-help/anyware_manager/24.10.1/anyware_manager/reference/awm_backup_restore/)
+* [Troubleshooting](https://anyware.hp.com/web-help/anyware_manager/24.10.1/anyware_manager/troubleshooting/awm_support_bundle/)
+
 
 > [!TIP]
 > **Key Takeaways:** Reader should be able to:
@@ -429,10 +452,21 @@ providing Network Address Translation (NAT) services for external users.
 Anyware Connector enables Anyware Manager to broker desktops or
 workstations based in AWS, Google Cloud, Microsoft Azure, and
 on-premises environments. Based on your infrastructure, you may need
-more than one instance of the Connector.
+more than one instance of the Connector. One dedicated for LAN Connections
+and the other dedicated for WAN connections. However, it has to be solely
+managed by the customer in their environment with respect to OS updates,
+security patches etc. Anyware Connectors can be installed even
+in darksite environments by downloading the installation files,
+transferring them to the target darksite machine, and then
+running the installation script.
 
 > [!NOTE]
 > [Anyware Connector Guide Link](https://anyware.hp.com/web-help/anyware_manager_connector/24.07/#anyware-connector-2407)
+> 
+> [Anyware Connector Installation](https://anyware.hp.com/web-help/anyware_manager_connector/24.10/anyware_connector/awc_connector_install/)
+> 
+> [Anyware Connector Installation Flags](https://anyware.hp.com/web-help/anyware_manager_connector/24.10/anyware_connector/include/awc_installation_flags/)
+
 
 > [!TIP]
 > **Key Takeaway:** Reader should be able to:
