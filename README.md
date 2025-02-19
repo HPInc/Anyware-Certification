@@ -88,7 +88,7 @@ refine that image, a process termed "build to perceptually lossless".
 
 > [!NOTE]
 > **Guide Link:**
-> [What is PCoIP Technology?](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.07/about-pcoip/#what-is-pcoip-technology)
+> [What is PCoIP Technology?](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.10/about-pcoip/#what-is-pcoip-technology)
 > 
 > **Guide Link:**
 > [Key Benefits of PCoIP Technology](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.10/about-pcoip/#key-benefits-of-pcoip-technology)
@@ -126,7 +126,7 @@ according to your corporate use case.
 
 > [!NOTE]
 > **Guide Link:**
-> [HP Anyware Connection Models](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.07/connection_models/connection-models/#hp-anyware-connection-models)
+> [HP Anyware Connection Models](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.10/connection_models/connection-models/#hp-anyware-connection-models)
 
 > [!TIP]
 > **Key Takeaway:** Reader should be able differentiate between unmanaged
@@ -142,7 +142,7 @@ introduces the most common components you'll need to understand.
 
 > [!NOTE]
 > **Guide Link:**
-> [HP Anyware Components](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.07/components/components/#hp-anyware-components)
+> [HP Anyware Components](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.10/components/components/#hp-anyware-components)
 
 > [!TIP]
 > **Key Takeaway:** Reader should be able to explain the various HP Anyware components.
@@ -159,9 +159,9 @@ seamless access to graphics-intensive workloads delivered anywhere.
 
 > [!NOTE]
 > **Guide Link:**
->  * [PCoIP Ultra](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.07/pcoip_ultra/pcoip_ultra/#pcoip-ultra)
+>  * [PCoIP Ultra](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.10/pcoip_ultra/pcoip_ultra/#pcoip-ultra)
 >
->  * [Session Planning with PCoIP Ultra](https://anyware.hp.com/web-help/pcoip/session_planning_guide/2024.07/session/ultra-session-planning/#session-planning-with-pcoip-ultra)
+>  * [Session Planning with PCoIP Ultra](https://anyware.hp.com/web-help/pcoip/session_planning_guide/2024.10/session/ultra-session-planning/#session-planning-with-pcoip-ultra)
 
 > [!TIP]
 > **Key Takeaway:** Reader should be able to explain the PCoIP Ultra
@@ -179,7 +179,7 @@ and On-premises data-centres.
 
 > [!NOTE]
 > **Guide Link:**
-> [HP Anyware Architecture Guide](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.07/#hp-anyware-architecture-guide)
+> [HP Anyware Architecture Guide](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.10/#hp-anyware-architecture-guide)
 
 > [!TIP]
 > **Key Takeaway:** Reader should be able navigate the Architecture
@@ -209,7 +209,7 @@ network planning guide.
 
 > [!NOTE]
 > **Guide Link:**
-> [PCoIP Session Planning Guide](https://anyware.hp.com/web-help/pcoip/session_planning_guide/2024.07/#pcoip-session-planning-guide)
+> [PCoIP Session Planning Guide](https://anyware.hp.com/web-help/pcoip/session_planning_guide/2024.10/#pcoip-session-planning-guide)
 
 > [!TIP]
 > **Key Takeaway:** Reader should be able to provide guidance on PCoIP
@@ -242,10 +242,10 @@ This guide explains how to install, configure, and use the Software
 Client. Key Sections of the guide include the System requirements,
 Installing, Configuring, Features, Troubleshooting.
 
-- [Anyware client 24.07.3 for Windows Administrators'
-  Guide](https://anyware.hp.com/component/software-client-for-windows/24.07.3/documentation/software-client-for-windows-24.07-28)
+- [Anyware client 24.10 for Windows Administrators'
+  Guide](https://anyware.hp.com/components/software-client-for-windows/24.10/documentation/administrators-guide/overview)
 
-- [Anyware client 24.07.3 for macOS Administrators'
+- [Anyware client 24.10 for macOS Administrators'
   Guide](https://anyware.hp.com/component/software-client-for-macos/24.07.3/documentation/software-client-for-macos-24.07-25)
 
 - [Anyware client for 24.07.3 Linux Administrators'
