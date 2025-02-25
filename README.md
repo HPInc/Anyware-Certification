@@ -224,19 +224,7 @@ machines running the Anyware Agents or equipped with a Remote
 Workstation Card. The Client is responsible for sending user input to
 the remote machine such as keyboard, mouse, microphone, etc.
 
-The Anyware Client supports a maximum of four displays and a 
-maximum resolution of 4K UHD (3840×2160). Monitors can be arranged
-in a vertical line, a horizontal line, or as a 2×2 box display. 
-Stereo audio output and mono audio input are supported and enabled 
-by default. When an audio device is enabled and used in a session,
-it is saved as user preferences, and becomes available as the 
-default audio for future sessions. PCoIP Ultra Collaboration enables 
-a PCoIP session user to share their session with multiple remote
-collaborators using Anyware Software Clients. Enhanced Audio and 
-Video Synchronization (AV Lock) provides improved full-screen
-video playback, reducing the difference in delays between
-the audio and video channels and smoothing frame playback
-on the client. 
+ 
 
 This guide explains how to install, configure, and use the Software
 Client. Key Sections of the guide include the System requirements,
@@ -459,6 +447,7 @@ security patches etc. Anyware Connectors can be installed even
 in darksite environments by downloading the installation files,
 transferring them to the target darksite machine, and then
 running the installation script.
+
 
 > [!NOTE]
 > [Anyware Connector Guide Link](https://anyware.hp.com/web-help/anyware_manager_connector/24.10/)
