@@ -371,7 +371,7 @@ The information returned by **_pcoip-list-licenses_** includes:
 > - Provide licensing guidance to customers based on their environment.
 > - Assist customers in managing their licenses via the license portal.
 
-## Anyware Manager
+## Anyware Manager SaaS
 
 Anyware Manager is a management plane enabling users to configure,
 manage and monitor brokering of remote workstations. Anyware Manager
@@ -379,21 +379,17 @@ enables highly scalable and cost-effective HP Anyware deployments by
 managing cloud compute costs by brokering PCoIP connections to remote
 Windows or Linux workstations.
 
-Anyware Manager is offered in two variants: Anyware Manager as a Service
-where your Anyware Manager is hosted by HP in the Cloud; and as an
-installable instance deployed and managed by the customer, in their
-on-premises or cloud environment.
+Anyware Manager as a Service is a service managed by HP that
+enables Anyware users to securely access the cloud-based version
+of Anyware Manager.  
+
 > [!NOTE]
-> [Anyware Manager Guide Link](https://anyware.hp.com/web-help/anyware_manager/24.10.1/)
->
 > [Anyware Manager as a Service Guide Link](https://anyware.hp.com/web-help/cas_manager_as_a_service/#what-is-anyware-manager-as-a-service)
 
 
 Also Read:
-* [Anyware Manager Default Installation](https://anyware.hp.com/web-help/anyware_manager/24.10.1/anyware_manager/awm_default_installation/)
-* [Admin Console Dashboard](https://anyware.hp.com/web-help/anyware_manager/24.10.1/anyware_manager/admin_console/awm_admin_console_overview/)
-* [Backup & Restore Anyware Manager Data](https://anyware.hp.com/web-help/anyware_manager/24.10.1/anyware_manager/reference/awm_backup_restore/)
-* [Troubleshooting](https://anyware.hp.com/web-help/anyware_manager/24.10.1/anyware_manager/troubleshooting/awm_support_bundle/)
+* [Admin Console Dashboard](https://anyware.hp.com/web-help/cas_manager_as_a_service/anyware_manager_service/admin_console/awm_admin_console_overview/)
+* [Troubleshooting](https://anyware.hp.com/web-help/cas_manager_as_a_service/anyware_manager_service/troubleshooting/awm_anyware_manager_service_status/)
 
 
 > [!TIP]
@@ -428,25 +424,27 @@ Authentication Single Sign On must be configured -
 
 ## Anyware Connector
 
-The HP Anyware Connector is an access hub installed in the customer
+HP Anyware Connector is an access hub installed in the customer
 environment which facilitates Anyware Client connections to remote
-workstations. The HP Anyware Connector operates in conjunction with the
+workstations. The HP Anyware Connector operates in conjunction with 
 HP Anyware Manager Service to provide user authentication and
-entitlement for remote workstation access, including MFA. It enables
-secure connectivity between users and the remote workstations by
-eliminating the need for a dedicated Virtual private network (VPN) by
-providing Network Address Translation (NAT) services for external users.
+entitlement for remote workstation access, including MFA. 
 
 Anyware Connector enables Anyware Manager to broker desktops or
-workstations based in AWS, Google Cloud, Microsoft Azure, and
-on-premises environments. Based on your infrastructure, you may need
-more than one instance of the Connector. One dedicated for LAN Connections
-and the other dedicated for WAN connections. However, it has to be solely
+workstations across AWS, Google Cloud, Microsoft Azure, and
+On-Premises environments. 
+
+> [!NOTE]
+> * Based on your infrastructure, multiple instances of Connector
+could be required. One dedicated for LAN Connections and the
+other dedicated for WAN connections. However, it has to be solely
 managed by the customer in their environment with respect to OS updates,
-security patches etc. Anyware Connectors can be installed even
-in darksite environments by downloading the installation files,
-transferring them to the target darksite machine, and then
-running the installation script.
+security patches etc.
+> * When applying a new configuration change to Internal Connectors,
+the active user sessions are not impacted as the 4172-session traffic
+does not traverse the Connector but for external connections
+all active external users will be disconnected. However, in both cases,
+all new connection attempts will fail till the update has been completed.
 
 
 > [!NOTE]
@@ -628,21 +626,7 @@ Manager (SaaS). Instead, please verify the following:
     code. This is the same which will be used to activate the Agents if
     using Cloud Licensing.
 
-## Anyware Manager / on prem
 
-### On-premises:
-
-1.  [Download Link](https://anyware.hp.com/find/product/hp-anyware/2024.10/anyware-manager)
-
-2.  [Installation Link](https://anyware.hp.com/web-help/anyware_manager/24.10.1/anyware_manager/awm_default_installation/)
-
-### Dark site – no internet:
-
-1.  [Download Link](https://anyware.hp.com/find/product/hp-anyware/2024.10/anyware-manager)
-
-(Kindly select the dark site installer package from the link)
-
-2.  [Installation Link](https://anyware.hp.com/web-help/anyware_manager/24.10.1/anyware_manager/awm_darksite_installation/)
 
 ## Local License Server
 
