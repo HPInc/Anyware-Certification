@@ -88,7 +88,10 @@ refine that image, a process termed "build to perceptually lossless".
 
 > [!NOTE]
 > **Guide Link:**
-> [What is PCoIP Technology?](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.07/about-pcoip/#what-is-pcoip-technology)
+> [What is PCoIP Technology?](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.10/about-pcoip/#what-is-pcoip-technology)
+> 
+> **Guide Link:**
+> [Key Benefits of PCoIP Technology](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.10/about-pcoip/#key-benefits-of-pcoip-technology)
 
 > [!TIP]
 > **Key Takeaway:** Reader should be able to explain the PCoIP protocol and its key benefits.
@@ -123,7 +126,7 @@ according to your corporate use case.
 
 > [!NOTE]
 > **Guide Link:**
-> [HP Anyware Connection Models](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.07/connection_models/connection-models/#hp-anyware-connection-models)
+> [HP Anyware Connection Models](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.10/connection_models/connection-models/#hp-anyware-connection-models)
 
 > [!TIP]
 > **Key Takeaway:** Reader should be able differentiate between unmanaged
@@ -139,7 +142,7 @@ introduces the most common components you'll need to understand.
 
 > [!NOTE]
 > **Guide Link:**
-> [HP Anyware Components](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.07/components/components/#hp-anyware-components)
+> [HP Anyware Components](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.10/components/components/#hp-anyware-components)
 
 > [!TIP]
 > **Key Takeaway:** Reader should be able to explain the various HP Anyware components.
@@ -156,9 +159,9 @@ seamless access to graphics-intensive workloads delivered anywhere.
 
 > [!NOTE]
 > **Guide Link:**
->  * [PCoIP Ultra](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.07/pcoip_ultra/pcoip_ultra/#pcoip-ultra)
+>  * [PCoIP Ultra](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.10/pcoip_ultra/pcoip_ultra/#pcoip-ultra)
 >
->  * [Session Planning with PCoIP Ultra](https://anyware.hp.com/web-help/pcoip/session_planning_guide/2024.07/session/ultra-session-planning/#session-planning-with-pcoip-ultra)
+>  * [Session Planning with PCoIP Ultra](https://anyware.hp.com/web-help/pcoip/session_planning_guide/2024.10/session/ultra-session-planning/#session-planning-with-pcoip-ultra)
 
 > [!TIP]
 > **Key Takeaway:** Reader should be able to explain the PCoIP Ultra
@@ -176,7 +179,7 @@ and On-premises data-centres.
 
 > [!NOTE]
 > **Guide Link:**
-> [HP Anyware Architecture Guide](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.07/#hp-anyware-architecture-guide)
+> [HP Anyware Architecture Guide](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.10/#hp-anyware-architecture-guide)
 
 > [!TIP]
 > **Key Takeaway:** Reader should be able navigate the Architecture
@@ -206,7 +209,7 @@ network planning guide.
 
 > [!NOTE]
 > **Guide Link:**
-> [PCoIP Session Planning Guide](https://anyware.hp.com/web-help/pcoip/session_planning_guide/2024.07/#pcoip-session-planning-guide)
+> [PCoIP Session Planning Guide](https://anyware.hp.com/web-help/pcoip/session_planning_guide/2024.10/#pcoip-session-planning-guide)
 
 > [!TIP]
 > **Key Takeaway:** Reader should be able to provide guidance on PCoIP
@@ -221,18 +224,26 @@ machines running the Anyware Agents or equipped with a Remote
 Workstation Card. The Client is responsible for sending user input to
 the remote machine such as keyboard, mouse, microphone, etc.
 
+ 
+
 This guide explains how to install, configure, and use the Software
 Client. Key Sections of the guide include the System requirements,
 Installing, Configuring, Features, Troubleshooting.
 
-- [Anyware client 24.07.3 for Windows Administrators'
-  Guide](https://anyware.hp.com/component/software-client-for-windows/24.07.3/documentation/software-client-for-windows-24.07-28)
+- [Anyware client 24.10 for Windows Administrators'
+  Guide](https://anyware.hp.com/components/software-client-for-windows/24.10/documentation/administrators-guide/overview)
 
-- [Anyware client 24.07.3 for macOS Administrators'
-  Guide](https://anyware.hp.com/component/software-client-for-macos/24.07.3/documentation/software-client-for-macos-24.07-25)
+- [Anyware client 24.10 for macOS Administrators'
+  Guide](https://anyware.hp.com/components/software-client-for-macos/24.10/documentation/administrators-guide/overview)
 
-- [Anyware client for 24.07.3 Linux Administrators'
-  Guide](https://anyware.hp.com/component/software-client-for-linux/24.07.3/documentation/software-client-for-linux-24.07-28)
+- [Anyware client for 24.10 Linux Administrators'
+  Guide](https://anyware.hp.com/components/software-client-for-linux/24.10/documentation/administrators-guide/overview)
+
+Also Read:
+* [Collaboration](https://anyware.hp.com/components/software-client-for-windows/24.10/documentation/administrators-guide/feature-support/collaboration#collaboration)
+* [Displays](https://anyware.hp.com/components/software-client-for-windows/24.10/documentation/administrators-guide/feature-support/displays#displays)
+* [Audio](https://anyware.hp.com/components/software-client-for-windows/24.10/documentation/administrators-guide/feature-support/audio#audio_support)
+* [Enhanced Audio & Video Synchronization](https://anyware.hp.com/components/software-client-for-windows/24.10/documentation/administrators-guide/in-session-actions/enhanced-audio-and-video-synchronization#enhanced_audio_and_video_synchronization)
 
 > [!TIP]
 > **Key Takeaway:** Reader should be able to describe the HP Anyware
@@ -246,25 +257,30 @@ remote machine that will securely encode the screen and efficiently
 stream (pixels-only) to the Anyware Client. There are two available
 Agent types for supporting both standard and graphics PC architectures.
 
-
 This guide explains how to install, configure, and use the Anyware
 Agent. Key Sections of the guide include the System requirements,
 Installing, Configuring, Features, Troubleshooting.
 
 - [Anyware Graphics Agent for
-  Windows](https://anyware.hp.com/component/graphics-agent-for-windows/24.07.3/documentation/graphics-agent-for-windows-24.07-38)
+  Windows](https://anyware.hp.com/components/graphics-agent-for-windows/24.10/documentation/administrators-guide/overview)
 
 - [Anyware Graphics Agent for
-  Linux](https://anyware.hp.com/component/graphics-agent-for-linux/24.07.3/documentation/graphics-agent-for-linux-24.07-17)
+  Linux](https://anyware.hp.com/components/graphics-agent-for-linux/24.10/documentation/administrators-guide/overview)
 
 - [Anyware Graphics Agent for
-  macOS](https://anyware.hp.com/component/graphics-agent-for-macos/24.07.3/documentation/graphics-agent-for-macos-24.07-22)
+  macOS](https://anyware.hp.com/components/graphics-agent-for-macos/24.10/documentation/administrators-guide/overview)
 
 - [Anyware Standard Agent for
-  Windows](https://anyware.hp.com/component/standard-agent-for-windows/24.07.3/documentation/standard-agent-for-windows-24.07-34)
+  Windows](https://anyware.hp.com/components/standard-agent-for-windows/24.10/documentation/administrators-guide/overview)
 
 - [Anyware Standard Agent for
-  Linux](https://anyware.hp.com/component/standard-agent-for-linux/24.07.3/documentation/standard-agent-for-linux-24.07-17)
+  Linux](https://anyware.hp.com/components/standard-agent-for-linux/24.10/documentation/administrators-guide/overview)
+
+Also Read:
+* [Collaboration](https://anyware.hp.com/components/standard-agent-for-windows/24.10/documentation/administrators-guide/feature-support/collaboration#collaboration)
+* [Displays](https://anyware.hp.com/components/standard-agent-for-windows/24.10/documentation/administrators-guide/feature-support/displays)
+* [PCoIP Ultra](https://anyware.hp.com/components/standard-agent-for-windows/24.10/documentation/administrators-guide/feature-support/pcoip-ultra#pcoip_ultra)
+* [Wacom Tablets](https://anyware.hp.com/components/standard-agent-for-windows/24.10/documentation/administrators-guide/feature-support/usb/wacom-tablets#bridged_wacom_tablets)
 
 > [!IMPORTANT]
 > Please note that we only recommend using the Standard Agent on Virtual Machines.
@@ -295,44 +311,28 @@ models.
   and cannot reach the HP License portal or if more control over the
   licensing is desired.
 
-**Below are some guidelines which can help you decide which licensing
-model to choose.**
+The information provided in the [HP Anyware Licensing Models](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.10/licensing_models/licensing_models_on_prem/#hp-anyware-licensing-models) and guidelines mentioned in the [HP Anyware Licensing](https://anyware.hp.com/knowledge/faq-licensing-hp-anyware#Guidelines) can help you decide which licensing
+model to choose.
 
-1.  Most PCoIP deployments can take advantage of the automated Cloud
-    Licensing Service which eliminates the complexity of on-premises
-    licensing infrastructure.
+### Viewing License Information
+To view the status of the licenses, use the **_pcoip-list-licenses_** command. 
+This command requires administrator password, and provides information
+about licenses that have been activated on HP Anyware License Server.
 
-2.  If your deployment cannot use cloud licensing, either because the
-    site is not connected to the public internet or local management of
-    licenses is necessary then Local License Server based licensing may
-    be the appropriate licensing model.
-
-3.  With HP Anyware, you can choose to put all your licenses into a
-    single cloud-based pool (Cloud Licensing) or if you need more
-    additional pools, or control, you can deploy your own Local License
-    Servers.
-
-4.  You can use Cloud Licensing if you do not want the overhead of
-    deploying or managing Local License Servers.
-
-5.  You will need to use a Local License Servers if your use case
-    includes one or more of these use cases:
-    - Remote machines/Agents do not have access to the internet.
-    - Need to use an offline (dark site) activation process.
-    - Need to divide your pool of licenses into multiple pools aimed at different users.
-    - Need more control over license usage.
-
-<img src="media/image1.png" style="width:5.59375in;height:4.39583in" />
+You can provide the administrator password inline using -p. 
+If you do not, it will prompt you for a password.
 
 > [!NOTE]
 > **Guide Link:**
->  * [HP Anyware Licensing Models](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.07/licensing_models/licensing_models_on_prem/#hp-anyware-licensing-models)
+>  * [HP Anyware Licensing Models](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.10/licensing_models/licensing_models_on_prem/#hp-anyware-licensing-models)
 >
 >  * [Licensing FAQ’s KB Article](https://anyware.hp.com/knowledge/faq-licensing-hp-anyware)
 >
 >  * [License Portal](https://anyware.hp.com/knowledge/how-to-use-the-hp-anyware-licensing-portal)
 >
->  * [Admin guide: Instructions for licensing the Agent](https://anyware.hp.com/component/standard-agent-for-windows/24.07.3/documentation/standard-agent-for-windows-24.07-26)
+>  * [Admin guide: Instructions for licensing the Agent](https://anyware.hp.com/components/standard-agent-for-windows/24.10/documentation/administrators-guide/installation-guide/2.-licensing-the-agent#licensing_the_standard_agent_for_windows)
+>
+>  * [Viewing License Information](https://anyware.hp.com/web-help/pcoip_license_server/windows/24.10/managing/viewing-license-information/)
 
 > [!TIP]
 > **Key Takeaway:** Reader should be able to:
@@ -340,7 +340,7 @@ model to choose.**
 > - Provide licensing guidance to customers based on their environment.
 > - Assist customers in managing their licenses via the license portal.
 
-## Anyware Manager
+## Anyware Manager SaaS
 
 Anyware Manager is a management plane enabling users to configure,
 manage and monitor brokering of remote workstations. Anyware Manager
@@ -348,20 +348,23 @@ enables highly scalable and cost-effective HP Anyware deployments by
 managing cloud compute costs by brokering PCoIP connections to remote
 Windows or Linux workstations.
 
-Anyware Manager is offered in two variants: Anyware Manager as a service
-where your Anyware Manager is hosted by HP in the Cloud; and as an
-installable instance deployed and managed by the customer, in their
-on-premises or cloud environment.
+Anyware Manager as a Service is a service managed by HP that
+enables Anyware users to securely access the cloud-based version
+of Anyware Manager.  
+
 > [!NOTE]
-> [Anyware Manager Guide Link](https://anyware.hp.com/web-help/anyware_manager/24.03.2/#anyware-manager-24032)
->
 > [Anyware Manager as a Service Guide Link](https://anyware.hp.com/web-help/cas_manager_as_a_service/#what-is-anyware-manager-as-a-service)
+
+
+Also Read:
+* [Admin Console Dashboard](https://anyware.hp.com/web-help/cas_manager_as_a_service/anyware_manager_service/admin_console/awm_admin_console_overview/)
+* [Troubleshooting](https://anyware.hp.com/web-help/cas_manager_as_a_service/anyware_manager_service/troubleshooting/awm_anyware_manager_service_status/)
+
 
 > [!TIP]
 > **Key Takeaways:** Reader should be able to:
-> - Explain the Brokered Solution using HP Anyware Manager
-> - Provide guidance regarding Saas vs On-premises Manager given a customers use case.
-> - Explain the prerequisites for both Manager SaaS and on premises.
+> - Explain the Brokered Solution using HP Anyware Manager.
+> - Explain the prerequisites for HP Anyware Manager SaaS.
 > - Provide guidance on key features such as Mutli Admin login, Anyware Monitor, and MFA.
 > - Understand the Manager’s role in the “Brokered Solution”.
 
@@ -389,22 +392,36 @@ Authentication Single Sign On must be configured -
 
 ## Anyware Connector
 
-The HP Anyware Connector is an access hub installed in the customer
+HP Anyware Connector is an access hub installed in the customer
 environment which facilitates Anyware Client connections to remote
-workstations. The HP Anyware Connector operates in conjunction with the
+workstations. The HP Anyware Connector operates in conjunction with 
 HP Anyware Manager Service to provide user authentication and
-entitlement for remote workstation access, including MFA. It enables
-secure connectivity between users and the remote workstations by
-eliminating the need for a dedicated Virtual private network (VPN) by
-providing Network Address Translation (NAT) services for external users.
+entitlement for remote workstation access, including MFA. 
 
 Anyware Connector enables Anyware Manager to broker desktops or
-workstations based in AWS, Google Cloud, Microsoft Azure, and
-on-premises environments. Based on your infrastructure, you may need
-more than one instance of the Connector.
+workstations across AWS, Google Cloud, Microsoft Azure, and
+On-Premises environments. 
 
 > [!NOTE]
-> [Anyware Connector Guide Link](https://anyware.hp.com/web-help/anyware_manager_connector/24.07/#anyware-connector-2407)
+> * Based on your infrastructure, multiple instances of Connector
+could be required. One dedicated for LAN Connections and the
+other dedicated for WAN connections. However, it has to be solely
+managed by the customer in their environment with respect to OS updates,
+security patches etc.
+> * When applying a new configuration change to Internal Connectors,
+the active user sessions are not impacted as the 4172-session traffic
+does not traverse the Connector but for external connections
+all active external users will be disconnected. However, in both cases,
+all new connection attempts will fail till the update has been completed.
+
+
+> [!NOTE]
+> [Anyware Connector Guide Link](https://anyware.hp.com/web-help/anyware_manager_connector/24.10/)
+> 
+> [Anyware Connector Installation](https://anyware.hp.com/web-help/anyware_manager_connector/24.10/anyware_connector/awc_connector_install/)
+> 
+> [Anyware Connector Installation Flags](https://anyware.hp.com/web-help/anyware_manager_connector/24.10/anyware_connector/include/awc_installation_flags/)
+
 
 > [!TIP]
 > **Key Takeaway:** Reader should be able to:
@@ -449,8 +466,6 @@ Provider, and Agents.
     - If the DC cert is self signed, verification can be skipped by
       running the *--ldaps-insecure* flag.
 
-3.  **TLS certificate for Manager communication** **[Only when using
-    Manager On-premises]**
 
 Certificates must be in PEM format. Certificate validation can be
 skipped to use self-signed certificates, especially when testing or
@@ -458,9 +473,9 @@ troubleshooting, but not recommended for production use.
 
 Read:
 * [FAQ Security](https://anyware.hp.com/knowledge/faqs-security)
-* [Architecture Guide \| Security](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.07/security/security/)
+* [Architecture Guide \| Security](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.10/security/security/)
 * [General certificate info](https://anyware.hp.com/knowledge/understanding-digital-certificates)
-* [Connector Certificate Preparation](https://anyware.hp.com/web-help/anyware_manager_connector/24.07/anyware_connector/prerequisite/awc_expected_cert/)
+* [Connector Certificate Preparation](https://anyware.hp.com/web-help/anyware_manager_connector/24.10/anyware_connector/prerequisite/awc_expected_cert/)
 
 ## Third party Broker + Connection Manager/Security Gateway (CMSG)
 
@@ -502,7 +517,7 @@ gateway failover, or for scaling large systems.
 
 > [!NOTE]
 > **Guide Link:**
-> [PCoIP Connection Manager And Security Gateway](https://anyware.hp.com/web-help/pcoip_connection_manager_security_gateway/24.07/#hp-pcoip-connection-manager-and-security-gateway)
+> [PCoIP Connection Manager And Security Gateway](https://anyware.hp.com/web-help/pcoip_connection_manager_security_gateway/24.10/#hp-pcoip-connection-manager-and-security-gateway)
 
 > [!TIP]
 > **Key Takeaway:** Reader should be able to:
@@ -520,7 +535,7 @@ Gateway.
 
 > [!NOTE]
 > **Guide Link:**
-> [Using Third Party Connection Brokers](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.07/using_third_party_connection_brokers/overview/)
+> [Using Third Party Connection Brokers](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.10/using_third_party_connection_brokers/overview/)
 
 > [!TIP]
 > **Key Takeaway:** Reader should be able to provide guidance on
@@ -537,18 +552,18 @@ Please refer back to these links when completing the Practical Application secti
 
 ## Anyware Client 
 
-| Download Link | [Windows](https://anyware.hp.com/find/product/hp-anyware/2024.07/software-client-for-windows) | [Linux](https://anyware.hp.com/find/product/hp-anyware/2024.07/software-client-for-linux) | [MacOS](https://anyware.hp.com/find/product/hp-anyware/2024.07/software-client-for-macos) |
+| Download Link | [Windows](https://anyware.hp.com/find/product/hp-anyware/2024.10/software-client-for-windows) | [Linux](https://anyware.hp.com/find/product/hp-anyware/2024.10/software-client-for-linux) | [MacOS](https://anyware.hp.com/find/product/hp-anyware/2024.10/software-client-for-macos) |
 |:--:|:--:|:--:|:--:|
-| Installation Link | [Windows](https://anyware.hp.com/component/software-client-for-windows/24.07.3/documentation/software-client-for-windows-24.07-30) | [Linux](https://anyware.hp.com/component/software-client-for-linux/24.07.3/documentation/software-client-for-linux-24.07-30) | [MacOS](https://anyware.hp.com/component/software-client-for-macos/24.07.3/documentation/software-client-for-macos-24.07-27) |
+| Installation Link | [Windows](https://anyware.hp.com/components/software-client-for-windows/24.10/documentation/administrators-guide/installing/installing-the-windows-client) | [Linux](https://anyware.hp.com/components/software-client-for-linux/24.10/documentation/administrators-guide/installation/installing-the-anyware-software-client-for-linux) | [MacOS](https://anyware.hp.com/components/software-client-for-macos/24.10/documentation/administrators-guide/installation/installing-the-macos-client) |
 
 ## Anyware Agent links
 
 | OS | Download Link |  | Installation Link |  |
 |:--:|:--:|:--:|:--:|:--:|
-| Windows | [Standard Agent](https://anyware.hp.com/find/product/hp-anyware/2024.07/standard-agent-for-windows) | [Graphics Agent](https://anyware.hp.com/find/product/hp-anyware/2024.07/graphics-agent-for-windows) | [Standard Agent](https://anyware.hp.com/component/standard-agent-for-windows/24.07.3/documentation/standard-agent-for-windows-24.07-25#anyware_standard_agent_for_windows_installation_guide) | [Graphics Agent](https://anyware.hp.com/component/graphics-agent-for-windows/24.07.3/documentation/graphics-agent-for-windows-24.07-30) |
-| Linux | [Standard Agent](https://anyware.hp.com/find/product/hp-anyware/2024.07/standard-agent-for-linux) | [Graphics Agent](https://anyware.hp.com/find/product/hp-anyware/2024.07/graphics-agent-for-linux) | [Standard Agent (Ubuntu)](https://www.teradici.com/web-help/pcoip_agent/standard_agent/linux/24.03/admin-guide/installing/ubuntu/overview/#installing-the-anyware-standard-agent-for-linux-on-ubuntu) | [Graphics Agent (Ubuntu)](https://www.teradici.com/web-help/pcoip_agent/graphics_agent/linux/24.03/admin-guide/installing/ubuntu/overview/#installation-overview) |
-|  |  |  | [Standard Agent (RHEL/Rocky)](https://www.teradici.com/web-help/pcoip_agent/standard_agent/linux/24.03/admin-guide/installing/rhel/overview/#installing-the-anyware-standard-agent-for-linux-on-rhel-or-centos) | [Graphics Agent (RHEL/Rocky)](https://www.teradici.com/web-help/pcoip_agent/graphics_agent/linux/24.03/admin-guide/installing/rhel/overview/#installation-overview) |
-| macOS | [Graphics Agent](https://anyware.hp.com/find/product/hp-anyware/2024.07/graphics-agent-for-macos) |  | [Graphics Agent](https://www.teradici.com/web-help/pcoip_agent/graphics_agent/macos/24.03/admin-guide/installing/installing-macos/#installing-the-graphics-agent-for-macos) |  |
+| Windows | [Standard Agent](https://anyware.hp.com/find/product/hp-anyware/2024.10/standard-agent-for-windows) | [Graphics Agent](https://anyware.hp.com/find/product/hp-anyware/2024.10/graphics-agent-for-windows) | [Standard Agent](https://anyware.hp.com/components/standard-agent-for-windows/24.10/documentation/administrators-guide/installation-guide/installation-overview#anyware_standard_agent_for_windows_installation_guide) | [Graphics Agent](https://anyware.hp.com/components/graphics-agent-for-windows/24.10/documentation/administrators-guide/installation-guide/installation-overview) |
+| Linux | [Standard Agent](https://anyware.hp.com/find/product/hp-anyware/2024.10/standard-agent-for-linux) | [Graphics Agent](https://anyware.hp.com/find/product/hp-anyware/2024.10/graphics-agent-for-linux) | [Standard Agent (Ubuntu)](https://anyware.hp.com/components/standard-agent-for-linux/24.10/documentation/administrators-guide/installation-guide/installation-overview#installation_overview) | [Graphics Agent (Ubuntu)](https://anyware.hp.com/components/graphics-agent-for-linux/24.10/documentation/administrators-guide/installation-overview#installation_overview) |
+|  |  |  | [Standard Agent (RHEL/Rocky)](https://anyware.hp.com/components/standard-agent-for-linux/24.10/documentation/administrators-guide/installation-guide/installation-overview#installation_overview) | [Graphics Agent (RHEL/Rocky)](https://anyware.hp.com/components/graphics-agent-for-linux/24.10/documentation/administrators-guide/installation-overview#installation_overview) |
+| macOS | [Graphics Agent](https://anyware.hp.com/find/product/hp-anyware/2024.10/graphics-agent-for-macos) |  | [Graphics Agent](https://anyware.hp.com/components/graphics-agent-for-macos/24.10/documentation/administrators-guide/installation-guide/installing-the-agent#installing_the_graphics_agent_for_macos) |  |
 
 | *<u>Note</u>: Please make sure to adhere to the system requirements, pre-requisites and network configurations as mentioned in the Client and Agent Admin Guides before installation.* |
 |----|
@@ -557,9 +572,9 @@ Please refer back to these links when completing the Practical Application secti
 
 1.  Download and Install the Client and Agent above.
 
-2.  Anyware Connector [Download Link](https://anyware.hp.com/find/product/hp-anyware/2024.07/anyware-connector-rhelrocky-linux)
+2.  Anyware Connector [Download Link](https://anyware.hp.com/find/product/hp-anyware/2024.10/anyware-connector-rhelrocky-linux)
 
-3.  Anyware Connector [Installation Link](https://anyware.hp.com/web-help/anyware_manager_connector/24.07/anyware_connector/awc_connector_install/)
+3.  Anyware Connector [Installation Link](https://anyware.hp.com/web-help/anyware_manager_connector/24.10/anyware_connector/awc_connector_install/)
 
 ## Anyware Manager SaaS (Software as a Service) 
 
@@ -577,35 +592,35 @@ Manager (SaaS). Instead, please verify the following:
     code. This is the same which will be used to activate the Agents if
     using Cloud Licensing.
 
-## Anyware Manager / on prem
 
-### On-premises:
-
-1.  [Download Link](https://anyware.hp.com/find/product/hp-anyware/2024.07/anyware-manager)
-
-2.  [Installation Link](https://anyware.hp.com/web-help/anyware_manager/24.03.2/anyware_manager/awm_default_installation/)
-
-### Dark site – no internet:
-
-1.  [Download Link](https://anyware.hp.com/find/product/hp-anyware/2024.07/anyware-manager)
-
-(Kindly select the dark site installer package from the link)
-
-2.  [Installation Link](https://anyware.hp.com/web-help/anyware_manager/24.03.2/anyware_manager/awm_darksite_installation/)
 
 ## Local License Server
 
-1.  [Linux Download Link](https://anyware.hp.com/find/product/hp-anyware/2024.07/license-server-for-linux)
+1.  [Linux Download Link](https://anyware.hp.com/find/product/hp-anyware/2024.10/license-server-for-linux)
 
-2.  [Linux Online Installation Link](https://anyware.hp.com/web-help/pcoip_license_server/linux/24.07/documentation/installing/online-installation/)
+2.  [Linux Online Installation Link](https://anyware.hp.com/web-help/pcoip_license_server/linux/24.10/documentation/installing/online-installation/)
 
-3.  [Linux Offline Installation Link](https://anyware.hp.com/web-help/pcoip_license_server/linux/24.07/documentation/installing/offline-installation/)
+3.  [Linux Offline Installation Link](https://anyware.hp.com/web-help/pcoip_license_server/linux/24.10/documentation/installing/offline-installation/)
 
-4.  [Windows Download Link](https://anyware.hp.com/find/product/hp-anyware/2024.07/license-server-for-windows)
+4.  [Windows Download Link](https://anyware.hp.com/find/product/hp-anyware/2024.10/license-server-for-windows)
 
-5.  [Windows Installation Link](https://anyware.hp.com/web-help/pcoip_license_server/windows/24.07/installation/installing-windows-license-server/)
+5.  [Windows Installation Link](https://anyware.hp.com/web-help/pcoip_license_server/windows/24.10/installation/installing-windows-license-server/)
 
 # Troubleshooting
+
+## Pre-Session and Session Issues
+
+For the purpose of troubleshooting, it can be helpful to first identify whether 
+the problem occured during the connection attempt (pre-session) or during the PCoIP session. 
+
+**Pre-session Issues**
+A Pre-session issue is any problem that occurs before the session has been fully initalized. For example, a user attempts to connect to their remote machine but it fails due to the Agent being unreachable. This would be considered a pre-session issue as it occured during the connection attempt. 
+
+**Session Issues**
+A Session issue is any problem which occurs during the PCoIP session - after a successful connection attempt. Some examples are lag/sluggishness, an unintended disconnection while working, etc. Log files such as the pcoip client log and the pcoip-server log should be used for debugging. Keep in mind, the pcoip-server log is only generated if a PCoIP session has been initated. If the server log is not present then we can assume it is not a session issue.
+
+> [!TIP]
+> **Key Takeaway:** Reader should be able to identify pre-session vs session issues.
 
 ## Capturing Logs
 
@@ -643,7 +658,8 @@ statistics are stored in the PCoIP server logs. Refer to the
 [guide](https://anyware.hp.com/knowledge/how-to-identify-network-issues-in-pcoip-logs)
 on how to identify the network issues in the PCoIP logs.
 
-## Session Issues
+
+## Session disconnects
 
 A session disconnect occurs when an active HP Anyware Session is
 unexpectedly terminated. This can happen due to issues such as VPN
@@ -676,16 +692,16 @@ HP Anyware allows configuring the Anyware Agent to optimize the PCoIP
 protocol behaviour for local network conditions. If fine tuning of user
 experience is needed, PCoIP session parameters impacting frame rate,
 image quality and bandwidth can be tuned by adjusting “[*Windows GPO
-variables*](https://anyware.hp.com/component/standard-agent-for-windows/24.07.3/documentation/standard-agent-for-windows-24.07-3)”
+variables*](https://anyware.hp.com/components/standard-agent-for-windows/24.10/documentation/administrators-guide/configuration-guide)”
 for Windows Agents,
-“[*pcoip-agent.conf*](https://anyware.hp.com/component/standard-agent-for-linux/24.07.3/documentation/standard-agent-for-linux-24.07-0)”
+“[*pcoip-agent.conf*](https://anyware.hp.com/components/standard-agent-for-linux/24.10/documentation/administrators-guide/configuration-guide)”
 file on Linux Agents and
-“[c*om.teradici.pcoip-agent.plist*](https://anyware.hp.com/component/graphics-agent-for-macos/24.07.3/documentation/graphics-agent-for-macos-24.07-0)”
+“[c*om.teradici.pcoip-agent.plist*](https://anyware.hp.com/components/graphics-agent-for-macos/24.10/documentation/administrators-guide/configuration-guide)”
 on macOS Agent
 
 Apart from the above hyperlinked guides, you can also utilize the
 session [performance optimization
-guide](https://anyware.hp.com/web-help/pcoip/session_planning_guide/2024.07/optimization/performance-optimization/)
+guide](https://anyware.hp.com/web-help/pcoip/session_planning_guide/2024.10/optimization/performance-optimization/)
 and review the user experience profiles in it and configure the session
 parameters as per your respective environment usage.
 
@@ -836,11 +852,11 @@ Agent.*
 
 5)  Before connections can be made, the Agent must have an active
     license. Please follow the steps in the Agent [Admin
-    Guide](https://anyware.hp.com/component/standard-agent-for-windows/24.07.3/documentation/standard-agent-for-windows-24.07-26#licensing_the_standard_agent_for_windows)
+    Guide](https://anyware.hp.com/components/standard-agent-for-windows/24.10/documentation/administrators-guide/installation-guide/2.-licensing-the-agent#licensing_the_standard_agent_for_windows)
     to use your Cloud License Registration Code.
 
 6)  Open the client software and follow the steps here [Admin
-    Guide](https://anyware.hp.com/component/software-client-for-windows/24.07.3/documentation/software-client-for-windows-24.07-5#connecting_to_remote_desktops)
+    Guide](https://anyware.hp.com/components/software-client-for-windows/24.10/documentation/administrators-guide/connecting/connecting-to-an-agent-machine#connecting_to_remote_desktops)
     to create a new connection to the Windows Agent
 
 ## Simulation Lab 2: Brokered Internal Connections using AWC and Manager SaaS
@@ -855,23 +871,23 @@ Connector and Anyware Manager as a Service
 
 2)  Next, we need a new machine which will host the Anyware Connector.
     Kindly follow the [system
-    requirements,](https://anyware.hp.com/web-help/anyware_manager_connector/24.07/anyware_connector/prerequisite/requirements/)
-    [prerequisites](https://anyware.hp.com/web-help/anyware_manager_connector/24.07/anyware_connector/prerequisite/awc_connector_server/),
+    requirements,](https://anyware.hp.com/web-help/anyware_manager_connector/24.10/anyware_connector/prerequisite/requirements/)
+    [prerequisites](https://anyware.hp.com/web-help/anyware_manager_connector/24.10/anyware_connector/prerequisite/awc_connector_server/),
     network and firewall configurations, DNS Name resolution required
     and create a new machine accordingly.
 
 3)  Download and install the Connector on the new machine by following
     Steps 1 - 3 in the [installation
-    guide](https://anyware.hp.com/web-help/anyware_manager_connector/24.07/anyware_connector/awc_connector_install/).
+    guide](https://anyware.hp.com/web-help/anyware_manager_connector/24.10/anyware_connector/awc_connector_install/).
 
 4)  To install a new Connector, you must generate a token from the
     Manager Admin Dashboard. Kindly log into “***cas.teradici.com***”
     and follow steps 4 & 5 from the
-    [guide](https://anyware.hp.com/web-help/anyware_manager_connector/24.07/anyware_connector/awc_connector_install/#4-generating-a-connector-token)
+    [guide](https://anyware.hp.com/web-help/anyware_manager_connector/24.10/anyware_connector/awc_connector_install/#4-generating-a-connector-token)
     to configure the Connector as per your environmental requirement.
 
 5)  Since this connector will be serving [internal
-    connections](https://anyware.hp.com/web-help/anyware_manager_connector/24.07/anyware_connector/awc_connector_install/#installing-the-connector-for-internal-connections),
+    connections](https://anyware.hp.com/web-help/anyware_manager_connector/24.10/anyware_connector/awc_connector_install/#installing-the-connector-for-internal-connections),
     the connector must be configured with the
     “--***enable-security-gateway***" flag to “***false***” when
     executing the configure command on the connector (ex:
@@ -891,20 +907,20 @@ Connector and Anyware Manager as a Service
 7)  Before connections can be made, the intended user must be entitled
     to a remote workstation/s. This can be done in the Anyware Manager (AWM) “Workstations
     Tab”. Follow the
-    [guide](https://anyware.hp.com/web-help/anyware_manager/24.03.2/anyware_manager/admin_console/awm_adding_rw/)
+    [guide](https://anyware.hp.com/web-help/anyware_manager/24.10.1/anyware_manager/admin_console/awm_adding_rw/)
     and add your agent and assign the testing user to the machine.
 
 8)  Connect to a remote workstation using the PCoIP Client using the
-    [guide](https://anyware.hp.com/web-help/anyware_manager_connector/24.07/anyware_connector/awc_connector_install/#5-connecting-to-a-remote-workstation-with-a-pcoip-client)
+    [guide](https://anyware.hp.com/web-help/anyware_manager_connector/24.10/anyware_connector/awc_connector_install/#5-connecting-to-a-remote-workstation-with-a-pcoip-client)
 
 > [!NOTE]
 > By default, security-gateway is set to true, which means both the internal and external clients can connect but beware that internal clients are passing through the security gateway which is not optimal. Hence, we recommend you deploy two Anyware Connectors, one with security gateway enabled to handle the external clients and one with security gateway disabled for the internal clients.
 
 ## Simulation Lab 3: Brokered connections using on-premise components
 
-The goal of this simulation is to establish a brokered connection
+The goal of this simulation lab is to establish a brokered connection
 between Windows Client and Windows Agent using On-Premises installations of
-Local License Server, Anyware Manager and Anyware Connector
+Local License Server and Anyware Connector
 
 1)  From the Simulation Lab 1, we already have a Client and Agent setup
     ready. Kindly note that the Agent machine should be domain joined
@@ -913,25 +929,25 @@ Local License Server, Anyware Manager and Anyware Connector
 2)  In the prior labs cloud licensing was used. In this lab, we will be
     using Local License Server. For this we will need to deploy a new
     Windows or Linux machine which will host the [local license
-    server](https://anyware.hp.com/web-help/pcoip_license_server/linux/24.07/documentation/overview/about-the-license-server/)
+    server](https://anyware.hp.com/web-help/pcoip_license_server/linux/24.10/documentation/overview/about-the-license-server/)
     (either offline or online) by following the [system requirements
-    guide](https://anyware.hp.com/web-help/pcoip_license_server/linux/24.07/documentation/overview/requirements/)
+    guide](https://anyware.hp.com/web-help/pcoip_license_server/linux/24.10/documentation/overview/requirements/)
     . It is suggested that if using a Local License Server to use an
     “Online” LLS, but for customers with no internet access, the offline
     version can be used.
 
 3)  Then, kindly proceed with installation of [Offline
-    LLS](https://anyware.hp.com/web-help/pcoip_license_server/linux/24.07/documentation/installing/offline-installation/)
+    LLS](https://anyware.hp.com/web-help/pcoip_license_server/linux/24.10/documentation/installing/offline-installation/)
     or [Online
-    LLS](https://anyware.hp.com/web-help/pcoip_license_server/linux/24.07/documentation/installing/online-installation/)
+    LLS](https://anyware.hp.com/web-help/pcoip_license_server/linux/24.10/documentation/installing/online-installation/)
     based on your environment's requirement. For this setup, we will
     proceed with offline setup.
 
 4)  Offline setup can be done in 2 ways, opening a [temporary
-    internet-connection](https://anyware.hp.com/web-help/pcoip_license_server/linux/24.07/documentation/installing/offline-installation/#installing-with-a-temporary-internet-connection)
+    internet-connection](https://anyware.hp.com/web-help/pcoip_license_server/linux/24.10/documentation/installing/offline-installation/#installing-with-a-temporary-internet-connection)
     on the primary LLS machine OR installing with [No Internet
     Connection
-    machine](https://anyware.hp.com/web-help/pcoip_license_server/linux/24.07/documentation/installing/offline-installation/#installing-with-no-internet-connection),
+    machine](https://anyware.hp.com/web-help/pcoip_license_server/linux/24.10/documentation/installing/offline-installation/#installing-with-no-internet-connection),
     to download the LLS software and its dependencies and then manually
     transfer it to the primary LLS machine.
 
@@ -939,7 +955,7 @@ Local License Server, Anyware Manager and Anyware Connector
     match the license portal. Since this Local License Server (LLS) machine does not have
     access to the internet access, steps must be taken to ensure the
     information is consistent between the portal and Local License Server. Please use the
-    [guide](https://anyware.hp.com/web-help/pcoip_license_server/linux/24.07/documentation/managing/managing-offline-licenses/)
+    [guide](https://anyware.hp.com/web-help/pcoip_license_server/linux/24.10/documentation/managing/managing-offline-licenses/)
     to complete the offline activation.
 
 6)  Now, we need to configure the Agent to use the Local License Server.
@@ -952,41 +968,41 @@ Local License Server, Anyware Manager and Anyware Connector
     Sessions. (As discussed, for direct connections we can configure the
     Agent to communicate with the the LLS via URL and port number. For
     Windows Agent see [local group policy
-    editor)](https://anyware.hp.com/component/standard-agent-for-windows/24.07.3/documentation/standard-agent-for-windows-24.07-26)
+    editor)](https://anyware.hp.com/components/standard-agent-for-windows/24.10/documentation/administrators-guide/installation-guide/2.-licensing-the-agent)
 
 7)  Now that we have the License Server installed, we need to deploy a
     new machine which will host the On-Premise Anyware Manager. Please
     follow the [system
-    requirements](https://anyware.hp.com/web-help/anyware_manager/24.03.2/anyware_manager/prerequisite/awm_system_requirements/#system-requirements),
+    requirements](https://anyware.hp.com/web-help/anyware_manager/24.10.1/anyware_manager/prerequisite/awm_system_requirements/#system-requirements),
     network and firewall configurations and create a new machine
     accordingly
 
 8)  Proceed with installing the [Anyware Manager with default
-    configuration](https://anyware.hp.com/web-help/anyware_manager/24.03.2/anyware_manager/awm_default_installation/)
+    configuration](https://anyware.hp.com/web-help/anyware_manager/24.10.1/anyware_manager/awm_default_installation/)
     and then access the [Admin
-    Console](https://anyware.hp.com/web-help/anyware_manager/24.03.2/anyware_manager/awm_default_installation/#5-access-the-admin-console)
+    Console](https://anyware.hp.com/web-help/anyware_manager/24.10.1/anyware_manager/awm_default_installation/#5-access-the-admin-console)
     of the Anyware Manager
 
 9)  Lastly, we need a machine which will host the Anyware Connector.
     Kindly follow the [system
-    requirements,](https://anyware.hp.com/web-help/anyware_manager_connector/24.07/anyware_connector/prerequisite/requirements/)
-    [pre-requisites](https://anyware.hp.com/web-help/anyware_manager_connector/24.07/anyware_connector/prerequisite/awc_connector_server/),
+    requirements,](https://anyware.hp.com/web-help/anyware_manager_connector/24.10/anyware_connector/prerequisite/requirements/)
+    [pre-requisites](https://anyware.hp.com/web-help/anyware_manager_connector/24.10/anyware_connector/prerequisite/awc_connector_server/),
     network and firewall configurations, DNS Name resolution required
     and create a new machine accordingly
 
 10) Then, download and install the Anyware Connector on the machine by following
     the Steps 1 - 3 steps mentioned in the [installation
-    guide](https://anyware.hp.com/web-help/anyware_manager_connector/24.07/anyware_connector/awc_connector_install/).
+    guide](https://anyware.hp.com/web-help/anyware_manager_connector/24.10/anyware_connector/awc_connector_install/).
 
 11) We would now require a Anyware Connector token to be generated from the
     Anyware Manager Admin Console Dashboard. Kindly log into Anyware
     Manager Admin Console and follow steps 4 & 5 from the
-    [guide](https://anyware.hp.com/web-help/anyware_manager_connector/24.07/anyware_connector/awc_connector_install/#4-generating-a-connector-token)
+    [guide](https://anyware.hp.com/web-help/anyware_manager_connector/24.10/anyware_connector/awc_connector_install/#4-generating-a-connector-token)
     to configure the Anyware Connector as per your environmental requirement and
     the necessary flags.
 
 12) Since this setup is focused on [external
-    connections](https://anyware.hp.com/web-help/anyware_manager_connector/24.07/anyware_connector/awc_connector_install/#installing-the-connector-for-external-connections)
+    connections](https://anyware.hp.com/web-help/anyware_manager_connector/24.10/anyware_connector/awc_connector_install/#installing-the-connector-for-external-connections)
     also, it is recommended to set the “***enable-security-gateway***"
     flag to “***true***” and set the Public IP using the
     “--***external-pcoip-ip***" flags when executing the configure
@@ -997,10 +1013,10 @@ Local License Server, Anyware Manager and Anyware Connector
 
 14) You will need to add the remote workstation/s via the AWM
     Workstations Tab before we can connect to the machine. Follow the
-    [guide](https://anyware.hp.com/web-help/anyware_manager/24.03.2/anyware_manager/admin_console/awm_adding_rw/)
+    [guide](https://anyware.hp.com/web-help/anyware_manager/24.10.1/anyware_manager/admin_console/awm_adding_rw/)
     and add your respective agent/s. You will also need to entitle the
     test user to this machine.
 
 15) Open the Anyware Client and create a new connection to the Anyware Connector,
     steps can be found in the
-    [guide](https://anyware.hp.com/web-help/anyware_manager_connector/24.07/anyware_connector/awc_connector_install/#5-connecting-to-a-remote-workstation-with-a-pcoip-client)
+    [guide](https://anyware.hp.com/web-help/anyware_manager_connector/24.10/anyware_connector/awc_connector_install/#5-connecting-to-a-remote-workstation-with-a-pcoip-client)
