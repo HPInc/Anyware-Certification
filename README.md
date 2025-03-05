@@ -363,9 +363,8 @@ Also Read:
 
 > [!TIP]
 > **Key Takeaways:** Reader should be able to:
-> - Explain the Brokered Solution using HP Anyware Manager
-> - Provide guidance regarding Saas vs On-premises Manager given a customers use case.
-> - Explain the prerequisites for both Manager SaaS and on premises.
+> - Explain the Brokered Solution using HP Anyware Manager.
+> - Explain the prerequisites for HP Anyware Manager SaaS.
 > - Provide guidance on key features such as Mutli Admin login, Anyware Monitor, and MFA.
 > - Understand the Manager’s role in the “Brokered Solution”.
 
@@ -467,8 +466,6 @@ Provider, and Agents.
     - If the DC cert is self signed, verification can be skipped by
       running the *--ldaps-insecure* flag.
 
-3.  **TLS certificate for Manager communication** **[Only when using
-    Manager On-premises]**
 
 Certificates must be in PEM format. Certificate validation can be
 skipped to use self-signed certificates, especially when testing or
@@ -921,9 +918,9 @@ Connector and Anyware Manager as a Service
 
 ## Simulation Lab 3: Brokered connections using on-premise components
 
-The goal of this simulation is to establish a brokered connection
+The goal of this simulation lab is to establish a brokered connection
 between Windows Client and Windows Agent using On-Premises installations of
-Local License Server, Anyware Manager and Anyware Connector
+Local License Server and Anyware Connector
 
 1)  From the Simulation Lab 1, we already have a Client and Agent setup
     ready. Kindly note that the Agent machine should be domain joined
