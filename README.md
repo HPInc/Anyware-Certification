@@ -311,35 +311,8 @@ models.
   and cannot reach the HP License portal or if more control over the
   licensing is desired.
 
-**Below are some guidelines which can help you decide which licensing
-model to choose.**
-
-1.  Most PCoIP deployments can take advantage of the automated Cloud
-    Licensing Service which eliminates the complexity of on-premises
-    licensing infrastructure.
-
-2.  If your deployment cannot use cloud licensing, either because the
-    site is not connected to the public internet or local management of
-    licenses is necessary then Local License Server based licensing may
-    be the appropriate licensing model.
-
-3.  With HP Anyware, you can choose to put all your licenses into a
-    single cloud-based pool (Cloud Licensing) or if you need more
-    additional pools, or control, you can deploy your own Local License
-    Servers.
-
-4.  You can use Cloud Licensing if you do not want the overhead of
-    deploying or managing Local License Servers.
-
-5.  You will need to use a Local License Servers if your use case
-    includes one or more of these use cases:
-    - Remote machines/Agents do not have access to the internet.
-    - Need to use an offline (dark site) activation process.
-    - Need to divide your pool of licenses into multiple pools aimed at different users.
-    - Need more control over license usage.
-
-<img src="media/image1.png" style="width:5.59375in;height:4.39583in" />
-
+The information provided in the [HP Anyware Licensing Models](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.10/licensing_models/licensing_models_on_prem/#hp-anyware-licensing-models) and guidelines mentioned in the [HP Anyware Licensing](https://anyware.hp.com/knowledge/faq-licensing-hp-anyware#Guidelines) can help you decide which licensing
+model to choose.
 
 ### Viewing License Information
 To view the status of the licenses, use the **_pcoip-list-licenses_** command. 
@@ -348,12 +321,6 @@ about licenses that have been activated on HP Anyware License Server.
 
 You can provide the administrator password inline using -p. 
 If you do not, it will prompt you for a password.
-
-The information returned by **_pcoip-list-licenses_** includes:
-- The number of activated licenses
-- The number of used licenses
-- The expire dates of features or session licenses
-  
 
 > [!NOTE]
 > **Guide Link:**
@@ -364,6 +331,8 @@ The information returned by **_pcoip-list-licenses_** includes:
 >  * [License Portal](https://anyware.hp.com/knowledge/how-to-use-the-hp-anyware-licensing-portal)
 >
 >  * [Admin guide: Instructions for licensing the Agent](https://anyware.hp.com/components/standard-agent-for-windows/24.10/documentation/administrators-guide/installation-guide/2.-licensing-the-agent#licensing_the_standard_agent_for_windows)
+>
+>  * [Viewing License Information](https://anyware.hp.com/web-help/pcoip_license_server/windows/24.10/managing/viewing-license-information/)
 
 > [!TIP]
 > **Key Takeaway:** Reader should be able to:
