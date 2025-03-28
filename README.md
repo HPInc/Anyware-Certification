@@ -368,7 +368,7 @@ Also Read:
 > - Provide guidance on key features such as Mutli Admin login, Anyware Monitor, and MFA.
 > - Understand the Manager’s role in the “Brokered Solution”.
 
-## Anyware Manager Features:
+## Anyware Manager Features
 
 [Federated Authentication](https://anyware.hp.com/web-help/cas_manager_as_a_service/anyware_manager_service/admin_console/fed_auth/awm_fed_auth_overview/)
 
