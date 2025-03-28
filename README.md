@@ -230,13 +230,13 @@ This guide explains how to install, configure, and use the Software
 Client. Key Sections of the guide include the System requirements,
 Installing, Configuring, Features, Troubleshooting.
 
-- [Anyware client 24.10 for Windows Administrators'
+- [Anyware client for Windows Administrators Guide'
   Guide](https://anyware.hp.com/components/software-client-for-windows/current/documentation/administrators-guide/overview)
 
-- [Anyware client 24.10 for macOS Administrators'
+- [Anyware client for macOS Administrators Guide'
   Guide](https://anyware.hp.com/components/software-client-for-macos/current/documentation/administrators-guide/overview)
 
-- [Anyware client for 24.10 Linux Administrators'
+- [Anyware client for Linux Administrators Guide'
   Guide](https://anyware.hp.com/components/software-client-for-linux/current/documentation/administrators-guide/overview)
 
 Also Read:
@@ -691,12 +691,12 @@ the issue.
 HP Anyware allows configuring the Anyware Agent to optimize the PCoIP
 protocol behaviour for local network conditions. If fine tuning of user
 experience is needed, PCoIP session parameters impacting frame rate,
-image quality and bandwidth can be tuned by adjusting “[*Windows GPO
-variables*](https://anyware.hp.com/components/standard-agent-for-windows/current/documentation/administrators-guide/configuration-guide)”
+image quality and bandwidth can be tuned by adjusting [Windows GPO
+variables](https://anyware.hp.com/components/standard-agent-for-windows/current/documentation/administrators-guide/configuration-guide)
 for Windows Agents,
-“[*pcoip-agent.conf*](https://anyware.hp.com/components/standard-agent-for-linux/current/documentation/administrators-guide/configuration-guide)”
+[pcoip-agent.conf](https://anyware.hp.com/components/standard-agent-for-linux/current/documentation/administrators-guide/configuration-guide)
 file on Linux Agents and
-“[c*om.teradici.pcoip-agent.plist*](https://anyware.hp.com/components/graphics-agent-for-macos/current/documentation/administrators-guide/configuration-guide)”
+[com.teradici.pcoip-agent.plist](https://anyware.hp.com/components/graphics-agent-for-macos/current/documentation/administrators-guide/configuration-guide)
 on macOS Agent
 
 Apart from the above hyperlinked guides, you can also utilize the
@@ -711,7 +711,7 @@ Log Analyzer is triggered by an Azure function and parses log files
 present in the uploaded support bundle to search for any
 warnings/problems using the signature files. Once parsing is completed,
 Log Analyzer will map knowledge base articles from
-*https://help.teradici.com* for these warnings/problems using
+https://help.teradici.com for these warnings/problems using
 diagnostics files and outputs or emails the report file with summary
 information in *.html* format.
 
@@ -727,7 +727,7 @@ Example of the LogAI generated reports and KBs:
 
 In the event a technical issue cannot be resolved, issues can be escalated via a support ticket. To escalate a technical issue:
 
-1. Browse to **https://anyware.hp.com**
+1. Browse to https://anyware.hp.com
 
 2. Select ***Contact Support*** and login.  Register if needed.
 
