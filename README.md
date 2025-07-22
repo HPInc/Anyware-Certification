@@ -542,7 +542,7 @@ differences between the two.
 > **Key Takeaway:** Reader should understand the major differences between the Anyware Trusted Zero Client and Legacy Tera2 PCoIP Zero Client.
 
 
-### Trusted Zero Client - Troubleshooting & Logs: 
+### Trusted Zero Client - Troubleshooting & Logs
 If you encounter a problem setting up or using the Trusted Zero Client, 
 there are several troubleshooting and support resources you can access.  
 
@@ -641,7 +641,7 @@ Pre-installation planning is highly important before setting up a Trust Center. 
 
 
 
-### Trust Center - Troubleshooting & Logs: 
+### Trust Center - Troubleshooting & Logs
 If you encounter a problem setting up or using the Anyware Trust Center, 
 there are several troubleshooting and support resources you can access.  
 
