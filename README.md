@@ -433,29 +433,26 @@ all new connection attempts will fail till the update has been completed.
 > - Debug common issues.
 
 
-# HP Anyware Trusted Ecosystem
+# HP Anyware Trusted Endpoints Ecosystem
 
-### Architecture
+### Trusted Endpoints Ecosystem - High Level Overview
+
 The Anyware Trusted Endpoints ecosystem is a robust architecture for PCoIP deployments, 
 founded on zero-trust principles and providing extremely secure PCoIP deployments. 
-There are two primary components in the Zero Trust ecosystem: Trusted Zero Clients, 
-which allow end users to connect to their remote desktops, and the Anyware Trust Center, 
-which manages the Trusted Zero Clients and enforces policies and integrity. 
 
--   The Anyware Trust Center is an application composed of multiple feature services
-    on a single VM; communicating internally within a cluster. It connects
-    to Trusted Zero Client endpoints and your Endpoint Manager Software.
+There are three primary components in the Zero Trust ecosystem: 
 
--   All Trusted Zero Clients are factory-provisioned and ready to register
-    with an Anyware Trust Center, which enforces zero-trust policies and features,
-    and allows administrators to control Trusted Zero Client deployments.
+-   **Trusted Zero Clients** used by end users to connect to their remote desktops.
 
--   The Trusted Zero Client can connect to any Windows, Linux, or macOS host
-    with an Anyware agent installed, as well as Amazon WorkSpaces desktops.
-    Connections can be made directly or brokered.
+-   **Anyware Trust Center** manages the Trusted Zero Clients, enforcing policies and integrity. The Trust Center communicates with both Trusted Zero Clients and End Point Management Software 
+
+-   **Endpoint Manager/Endpoint Management Software** provides IT admins a graphical management intereface.
+
    
--   Trusted Zero Clients cannot be used without first registering with an Anyware Trust Center. 
-
+> [!TIP]
+> **Key Takeaway:** Reader should be able to identify the 3 main components of an HP Anyware Trusted Ecosystem.
+> [!NOTE]
+> [Anyware Trust Center ](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/current/)  
 
 ### Trusted Zero Client Overview 
 
@@ -475,11 +472,11 @@ Key sections of the guide include the system requirements, configuration, and up
 > [Anyware Trusted Zero Client Guide Link](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/)  
 
 > [!IMPORTANT]
-> A Trusted Zero Client cannot be used without an Anyware Trust Center. 
+> A Trusted Zero Client cannot be used without Registering to a Trust Center. 
 
 > [!TIP]
 > **Key Takeaway:** Reader should be able to describe the HP Anyware Trusted Zero Client
-> and navigate the administrator guide. Provide guidance on system requirements and setup. 
+> navigate the administrator guide. Provide guidance on system requirements and intial setup. 
 
 
 
@@ -497,7 +494,7 @@ or [customize](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-cl
 > [Connecting to Remote Host Guide Link](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/connecting/connecting-remote-desktops/)
   
 > [!TIP]
-> **Key Takeaway:** Reader should be able to create and connect to a direct or managed session successfully. Including Amazon WorkSpaces & Omnissa Horizon connections. 
+> **Key Takeaway:** Reader should understand how to connect to a direct or managed session successfully. 
 
 Also Read:
 * [Using Smart Card to Authenticate a Session](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/connecting/smart-cards-authentication/)
