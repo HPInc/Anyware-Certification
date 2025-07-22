@@ -562,6 +562,67 @@ with other services. These files are invaluable in diagnosing problems.
 > [Logs Guide Link](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/support/support/#logs)
 
 
+### Trust Center Overview
+
+The Anyware Trust Center provides a management and security plane for a Trusted Zero Client deployment. 
+Using the Anyware Trust Center, administrators can register Trusted Zero Clients, manage their capabilities 
+and features, enable and disable connections, and monitor access behavior. 
+
+The Anyware Trust Center is an application composed of multiple services on a single VM. 
+It connects to Trusted Zero Client endpoints and your Endpoint Manager. 
+
+> [!NOTE]
+> [Anyware Trust Center Admin Guide Link](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/current/)  
+
+> [!IMPORTANT]
+> The Anyware Trust Center is an API service and has no user interface.
+> All user interaction and interfaces are provided by Endpoint Manager, also called Endpoint Management Software (EMS).
+> Endpoint Management Software is available from the hardware manufacturer of your Trusted Zero Client.
+> Ensure that the EMS is compatible with the Trust Center version you intend to use. 
+
+> [!TIP]
+> **Key Takeaway:** Reader should be able to describe the HP Anyware Trust Center and navigate the administrator guide. 
+
+
+
+### Architecture
+The Anyware Trust Center is composed of multiple feature services which communicate internally within the cluster and 
+securely communicate with the distributed Trusted Zero Clients and the Endpoint Manager. 
+
+> [!NOTE]
+> [Anyware Trust Center Persistence Link](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/current/#about-anyware-trust-center-persistence)  
+
+> [!IMPORTANT]
+> We recommend backing up the Anyware Trust Center and all persistent storage volumes.
+
+> [!TIP]
+> **Key Takeaway:** Reader should be able to understand the Trust Center Architecture and its data persistence. 
+
+
+
+### Trust Center Features 
+
+[Licensing and Subscription Tiers](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/current/features/tc-management-features/#about-licensing-and-subscription-tiers): Most Anyware Trust Center functionality requires a subscription. Basic functionality is available for free for users who have small deployments, or who are testing proof-of-concept scenarios. 
+
+[Endpoint Management](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/current/features/tc-management-features/#endpoint-management): The Anyware Trust Center can manage many endpoint devices.
+
+[Anyware Trust Center Management](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/current/features/tc-management-features/#anyware-trust-center-management): Any number of users can access the Anyware Trust Center via your EMS software at once.
+
+> [!TIP]
+> **Key Takeaway:** Reader should be able explain the major Trust Center features. Provide guidance on system requirements and setup.
+
+
+
+### Troubleshooting & Logs: 
+If you encounter a problem setting up or using the Anyware Trust Center, 
+there are several troubleshooting and support resources you can access.  
+
+> [!NOTE]
+> [Troubleshooting Guide Link](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/current/troubleshooting/troubleshooting/#troubleshooting)
+>
+> [Support Guide Link](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/current/support/support/#support)
+
+
 
 ## Security and Certificates
 
