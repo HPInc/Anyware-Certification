@@ -554,6 +554,7 @@ with other services.
 > [Troubleshooting Guide Link](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/support/support/)
 >
 > [Logs Guide Link](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/support/support/#logs)
+> 
 > [!TIP]
 > **Key Takeaway:** Reader should understand how to view logs and generate a support bundle.
 
