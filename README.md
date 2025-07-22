@@ -88,10 +88,10 @@ refine that image, a process termed "build to perceptually lossless".
 
 > [!NOTE]
 > **Guide Link:**
-> [What is PCoIP Technology?](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/current/about-pcoip/#what-is-pcoip-technology)
+> [What is PCoIP Technology?](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.07/about-pcoip/#what-is-pcoip-technology)
 > 
 > **Guide Link:**
-> [Key Benefits of PCoIP Technology](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/current/about-pcoip/#key-benefits-of-pcoip-technology)
+> [Key Benefits of PCoIP Technology](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.07/about-pcoip/#key-benefits-of-pcoip-technology)
 
 > [!TIP]
 > **Key Takeaway:** Reader should be able to explain the PCoIP protocol and its key benefits.
@@ -126,7 +126,7 @@ according to your corporate use case.
 
 > [!NOTE]
 > **Guide Link:**
-> [HP Anyware Connection Models](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/current/connection_models/connection-models/#hp-anyware-connection-models)
+> [HP Anyware Connection Models](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.07/connection_models/connection-models/#hp-anyware-connection-models)
 
 > [!TIP]
 > **Key Takeaway:** Reader should be able differentiate between unmanaged
@@ -142,7 +142,7 @@ introduces the most common components you'll need to understand.
 
 > [!NOTE]
 > **Guide Link:**
-> [HP Anyware Components](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/current/components/components/#hp-anyware-components)
+> [HP Anyware Components](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.07/components/components/#hp-anyware-components)
 
 > [!TIP]
 > **Key Takeaway:** Reader should be able to explain the various HP Anyware components.
@@ -159,7 +159,7 @@ seamless access to graphics-intensive workloads delivered anywhere.
 
 > [!NOTE]
 > **Guide Link:**
->  * [PCoIP Ultra](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/current/pcoip_ultra/pcoip_ultra/#pcoip-ultra)
+>  * [PCoIP Ultra](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.07/pcoip_ultra/pcoip_ultra/#pcoip-ultra)
 >
 >  * [Session Planning with PCoIP Ultra](https://anyware.hp.com/web-help/pcoip/session_planning_guide/current/session/ultra-session-planning/#session-planning-with-pcoip-ultra)
 
@@ -179,7 +179,7 @@ and On-premises data-centres.
 
 > [!NOTE]
 > **Guide Link:**
-> [HP Anyware Architecture Guide](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/current/#hp-anyware-architecture-guide)
+> [HP Anyware Architecture Guide](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.07/#hp-anyware-architecture-guide)
 
 > [!TIP]
 > **Key Takeaway:** Reader should be able navigate the Architecture
@@ -311,7 +311,7 @@ models.
   and cannot reach the HP License portal or if more control over the
   licensing is desired.
 
-The information provided in the [HP Anyware Licensing Models](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/current/licensing_models/licensing_models_on_prem/#hp-anyware-licensing-models) and guidelines mentioned in the [HP Anyware Licensing](https://anyware.hp.com/knowledge/faq-licensing-hp-anyware#Guidelines) can help you decide which licensing
+The information provided in the [HP Anyware Licensing Models](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.07/licensing_models/licensing_models_on_prem/#hp-anyware-licensing-models) and guidelines mentioned in the [HP Anyware Licensing](https://anyware.hp.com/knowledge/faq-licensing-hp-anyware#Guidelines) can help you decide which licensing
 model to choose.
 
 ### Viewing License Information
@@ -324,7 +324,7 @@ If you do not, it will prompt you for a password.
 
 > [!NOTE]
 > **Guide Link:**
->  * [HP Anyware Licensing Models](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/current/licensing_models/licensing_models_on_prem/#hp-anyware-licensing-models)
+>  * [HP Anyware Licensing Models](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.07/licensing_models/licensing_models_on_prem/#hp-anyware-licensing-models)
 >
 >  * [Licensing FAQ’s KB Article](https://anyware.hp.com/knowledge/faq-licensing-hp-anyware)
 >
@@ -692,7 +692,7 @@ troubleshooting, but not recommended for production use.
 
 Read:
 * [FAQ Security](https://anyware.hp.com/knowledge/faqs-security)
-* [Architecture Guide \| Security](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/current/security/security/)
+* [Architecture Guide \| Security](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.07/security/security/)
 * [General certificate info](https://anyware.hp.com/knowledge/understanding-digital-certificates)
 * [Connector Certificate Preparation](https://anyware.hp.com/web-help/anyware_manager_connector/current/anyware_connector/prerequisite/awc_expected_cert/)
 
@@ -754,7 +754,7 @@ Gateway.
 
 > [!NOTE]
 > **Guide Link:**
-> [Using Third Party Connection Brokers](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/current/using_third_party_connection_brokers/overview/)
+> [Using Third Party Connection Brokers](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.07/using_third_party_connection_brokers/overview/)
 
 > [!TIP]
 > **Key Takeaway:** Reader should be able to provide guidance on
