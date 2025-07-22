@@ -161,7 +161,7 @@ seamless access to graphics-intensive workloads delivered anywhere.
 > **Guide Link:**
 >  * [PCoIP Ultra](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.07/pcoip_ultra/pcoip_ultra/#pcoip-ultra)
 >
->  * [Session Planning with PCoIP Ultra](https://anyware.hp.com/web-help/pcoip/session_planning_guide/current/session/ultra-session-planning/#session-planning-with-pcoip-ultra)
+>  * [Session Planning with PCoIP Ultra](https://anyware.hp.com/products/hp-anyware/current/documentation/session-planning-guide/session-planning-for-pcoip-ultra)
 
 > [!TIP]
 > **Key Takeaway:** Reader should be able to explain the PCoIP Ultra
