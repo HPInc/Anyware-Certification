@@ -433,6 +433,135 @@ all new connection attempts will fail till the update has been completed.
 > - Debug common issues.
 
 
+# HP Anyware Trusted Ecosystem
+
+### Architecture
+The Anyware Trusted Endpoints ecosystem is a robust architecture for PCoIP deployments, 
+founded on zero-trust principles and providing extremely secure PCoIP deployments. 
+There are two primary components in the Zero Trust ecosystem: Trusted Zero Clients, 
+which allow end users to connect to their remote desktops, and the Anyware Trust Center, 
+which manages the Trusted Zero Clients and enforces policies and integrity. 
+
+-   The Anyware Trust Center is an application composed of multiple feature services
+    on a single VM; communicating internally within a cluster. It connects
+    to Trusted Zero Client endpoints and your Endpoint Manager Software.
+
+-   All Trusted Zero Clients are factory-provisioned and ready to register
+    with an Anyware Trust Center, which enforces zero-trust policies and features,
+    and allows administrators to control Trusted Zero Client deployments.
+
+-   The Trusted Zero Client can connect to any Windows, Linux, or macOS host
+    with an Anyware agent installed, as well as Amazon WorkSpaces desktops.
+    Connections can be made directly or brokered.
+   
+-   Trusted Zero Clients cannot be used without first registering with an Anyware Trust Center. 
+
+
+### Trusted Zero Client Overview 
+
+The Trusted Zero Client is HP's next-generation standalone Anyware Client, 
+securely connecting users to their HP Anyware remote desktops, as well as 
+Amazon WorkSpaces and Omnissa Horizon View using the PCoIP and Blast protocols (support for Omnissa Horizon).  
+
+Trusted Zero Clients are designed around strict zero-trust principles, providing extremely secure connections
+and ensuring device integrity wherever they are deployed. Deployments of Trusted Zero Clients
+are monitored and managed by the Anyware Trust Center, which enforces security and configuration
+settings for each endpoint device in your deployment. 
+
+The guide explains how to set up, register, and connect to the Trusted Zero Client. 
+Key sections of the guide include the system requirements, configuration, and updating of the Trusted Zero Client. 
+
+> [!NOTE]
+> [Anyware Trusted Zero Client Guide Link](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/)  
+
+> [!IMPORTANT]
+> A Trusted Zero Client cannot be used without an Anyware Trust Center. 
+
+> [!TIP]
+> **Key Takeaway:** Reader should be able to describe the HP Anyware Trusted Zero Client
+> and navigate the administrator guide. Provide guidance on system requirements and setup. 
+
+
+
+### Connecting to a Remote Host 
+The Trusted Zero Client can connect to any Windows, Linux, or macOS host 
+with an Anyware agent installed, as well as Amazon WorkSpaces desktops. 
+Connections can be made directly (client direct to host), or brokered through 
+Anyware Manager, an Anyware Connection Manager, or Omnissa (VMware) Horizon 
+using both PCoIP and Blast protocols. 
+
+You can also [automatically connect](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/connecting/automatic-connections/#automatically-connecting-to-a-session) 
+or [customize](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/connecting/custom-login-options/) your session login experience 
+
+> [!NOTE]
+> [Connecting to Remote Host Guide Link](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/connecting/connecting-remote-desktops/)
+  
+> [!TIP]
+> **Key Takeaway:** Reader should be able to create and connect to a direct or managed session successfully. Including Amazon WorkSpaces & Omnissa Horizon connections. 
+
+Also Read:
+* [Using Smart Card to Authenticate a Session](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/connecting/smart-cards-authentication/)
+* [Connecting to a Session in Kiosk Mode](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/connecting/kiosk-mode-connection/)
+* [Connecting to Omnissa Horizon Hosts using Proximity Cards](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/connecting/imprivata-onesign-connection/)
+* [Managing Connections & Desktops](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/connecting/managing-connections-desktops/)
+* [Disconnecting from a Remote Host](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/connecting/disconnecting/)
+ 
+
+### Trusted Zero Client Features 
+
+[Audio](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/features/audio/): Stereo audio output and mono audio input are supported and enabled by default. 
+
+[Connection Health Indicator](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/features/connection-health/): Connection Health Indicator gives you quick feedback on the quality of your active remote session. 
+
+[Display Support](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/features/displays/): The Trusted Zero Client supports a maximum of four displays, with a maximum resolution of 4K UHD (3840×2160). 
+
+[USB Support](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/features/usb/usb/): The Trusted Zero Client supports redirecting USB devices to a remote session. Administrators can set rules governing allowed and disallowed devices, device classes, or device protocols. 
+
+> [!TIP]
+> **Key Takeaway:** Reader should be able to explain the major Trusted Zero Client features. 
+
+
+ 
+### Trusted Zero Client Settings 
+The Trusted Zero Client allows users to configure a limited number of settings 
+via the pre-session interface (before connecting to a remote session). 
+All configuration settings are available from the Settings menu at the top 
+of the Trusted Zero Client pre-session display. 
+
+> [!NOTE]
+> [Trusted Zero Client Settings Guide Link](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/configuration/settings/)  
+
+> [!TIP]
+> **Key Takeaway:** Reader should be able to briefly explain Trusted Zero Client settings. 
+ 
+
+
+### Tera2 Feature Comparison 
+If you are an existing Tera2 Zero Client user, or have prior experience 
+using the Tera2 devices, this page will highlight some of the more important 
+differences between the two. 
+
+> [!NOTE]
+> [Feature Comparison Guide Link](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/reference/tera2-faq/)  
+
+> [!TIP]
+> **Key Takeaway:** Reader should be able to differentiate feature comparison between Trusted Zero Client and Tera2 PCoIP Zero Client. 
+
+
+## Troubleshooting & Logs: 
+If you encounter a problem setting up or using the Trusted Zero Client, 
+there are several troubleshooting and support resources you can access.  
+
+The Trusted Zero Client and its related components, including the Trust Center 
+and the PCoIP agent, write log files that document processes and interactions 
+with other services. These files are invaluable in diagnosing problems. 
+
+> [!NOTE]
+> [Troubleshooting Guide Link](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/support/support/)
+>
+> [Logs Guide Link](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/support/support/#logs)
+
+
 
 ## Security and Certificates
 
