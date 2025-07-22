@@ -572,7 +572,7 @@ The Anyware Trust Center is an application composed of multiple services on a si
 
 
 > [!NOTE]
-> [Anyware Trust Center Admin Guide Link](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/current/)  
+> [Anyware Trust Center Admin Guide - Architecture](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/current/)  
 
 > [!IMPORTANT]
 > The Anyware Trust Center is an API service and **has no user interface.**
