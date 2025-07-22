@@ -416,11 +416,11 @@ all new connection attempts will fail till the update has been completed.
 
 
 > [!NOTE]
-> [Anyware Connector Guide Link](https://anyware.hp.com/web-help/anyware_manager_connector/current/)
+> [Anyware Connector Guide Link](https://anyware.hp.com/web-help/anyware_manager_connector/25.06/)
 > 
-> [Anyware Connector Installation](https://anyware.hp.com/web-help/anyware_manager_connector/current/anyware_connector/awc_connector_install/)
+> [Anyware Connector Installation](https://anyware.hp.com/web-help/anyware_manager_connector/25.06/anyware_connector/awc_connector_install/)
 > 
-> [Anyware Connector Installation Flags](https://anyware.hp.com/web-help/anyware_manager_connector/current/anyware_connector/include/awc_installation_flags/)
+> [Anyware Connector Installation Flags](https://anyware.hp.com/web-help/anyware_manager_connector/25.06/anyware_connector/awc_connector_install/#connector-flags)
 
 
 > [!TIP]
@@ -694,7 +694,7 @@ Read:
 * [FAQ Security](https://anyware.hp.com/knowledge/faqs-security)
 * [Architecture Guide \| Security](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.07/security/security/)
 * [General certificate info](https://anyware.hp.com/knowledge/understanding-digital-certificates)
-* [Connector Certificate Preparation](https://anyware.hp.com/web-help/anyware_manager_connector/current/anyware_connector/prerequisite/awc_expected_cert/)
+* [Connector Certificate Preparation](https://anyware.hp.com/web-help/anyware_manager_connector/25.06/anyware_connector/prerequisite/awc_expected_cert/)
 
 # Third party Broker + Connection Manager/Security Gateway (CMSG)
 
@@ -793,7 +793,7 @@ Please refer back to these links when completing the Practical Application secti
 
 2.  Anyware Connector [Download Link](https://anyware.hp.com/find/product/hp-anyware/current/anyware-connector-rhelrocky-linux)
 
-3.  Anyware Connector [Installation Link](https://anyware.hp.com/web-help/anyware_manager_connector/current/anyware_connector/awc_connector_install/)
+3.  Anyware Connector [Installation Link](https://anyware.hp.com/web-help/anyware_manager_connector/25.06/anyware_connector/awc_connector_install/)
 
 ## Anyware Manager SaaS (Software as a Service) 
 
@@ -1100,23 +1100,23 @@ Connector and Anyware Manager as a Service
 
 2)  Next, we need a new machine which will host the Anyware Connector.
     Kindly follow the [system
-    requirements,](https://anyware.hp.com/web-help/anyware_manager_connector/current/anyware_connector/prerequisite/requirements/)
-    [prerequisites](https://anyware.hp.com/web-help/anyware_manager_connector/current/anyware_connector/prerequisite/awc_connector_server/),
+    requirements,](https://anyware.hp.com/web-help/anyware_manager_connector/25.06/anyware_connector/prerequisite/requirements/)
+    [prerequisites](https://anyware.hp.com/web-help/anyware_manager_connector/25.06/anyware_connector/prerequisite/awc_connector_server/),
     network and firewall configurations, DNS Name resolution required
     and create a new machine accordingly.
 
 3)  Download and install the Connector on the new machine by following
     Steps 1 - 3 in the [installation
-    guide](https://anyware.hp.com/web-help/anyware_manager_connector/current/anyware_connector/awc_connector_install/).
+    guide](https://anyware.hp.com/web-help/anyware_manager_connector/25.06/anyware_connector/awc_connector_install/).
 
 4)  To install a new Connector, you must generate a token from the
     Manager Admin Dashboard. Kindly log into “***cas.teradici.com***”
     and follow steps 4 & 5 from the
-    [guide](https://anyware.hp.com/web-help/anyware_manager_connector/current/anyware_connector/awc_connector_install/#4-generating-a-connector-token)
+    [guide](https://anyware.hp.com/web-help/anyware_manager_connector/25.06/anyware_connector/awc_connector_install/#4-generating-a-connector-token)
     to configure the Connector as per your environmental requirement.
 
 5)  Since this connector will be serving [internal
-    connections](https://anyware.hp.com/web-help/anyware_manager_connector/current/anyware_connector/awc_connector_install/#installing-the-connector-for-internal-connections),
+    connections](https://anyware.hp.com/web-help/anyware_manager_connector/25.06/anyware_connector/awc_connector_install/#installing-the-connector-for-internal-connections),
     the connector must be configured with the
     “--***enable-security-gateway***" flag to “***false***” when
     executing the configure command on the connector (ex:
@@ -1140,7 +1140,7 @@ Connector and Anyware Manager as a Service
     and add your agent and assign the testing user to the machine.
 
 8)  Connect to a remote workstation using the PCoIP Client using the
-    [guide](https://anyware.hp.com/web-help/anyware_manager_connector/current/anyware_connector/awc_connector_install/#5-connecting-to-a-remote-workstation-with-a-pcoip-client)
+    [guide](https://anyware.hp.com/web-help/anyware_manager_connector/25.06/anyware_connector/awc_connector_install/#5-connecting-to-a-remote-workstation-with-a-pcoip-client)
 
 > [!NOTE]
 > By default, security-gateway is set to true, which means both the internal and external clients can connect but beware that internal clients are passing through the security gateway which is not optimal. Hence, we recommend you deploy two Anyware Connectors, one with security gateway enabled to handle the external clients and one with security gateway disabled for the internal clients.
@@ -1214,24 +1214,24 @@ Local License Server and Anyware Connector
 
 9)  Lastly, we need a machine which will host the Anyware Connector.
     Kindly follow the [system
-    requirements,](https://anyware.hp.com/web-help/anyware_manager_connector/current/anyware_connector/prerequisite/requirements/)
-    [pre-requisites](https://anyware.hp.com/web-help/anyware_manager_connector/current/anyware_connector/prerequisite/awc_connector_server/),
+    requirements,](https://anyware.hp.com/web-help/anyware_manager_connector/25.06/anyware_connector/prerequisite/requirements/)
+    [pre-requisites](https://anyware.hp.com/web-help/anyware_manager_connector/25.06/anyware_connector/prerequisite/awc_connector_server/),
     network and firewall configurations, DNS Name resolution required
     and create a new machine accordingly
 
 10) Then, download and install the Anyware Connector on the machine by following
     the Steps 1 - 3 steps mentioned in the [installation
-    guide](https://anyware.hp.com/web-help/anyware_manager_connector/current/anyware_connector/awc_connector_install/).
+    guide](https://anyware.hp.com/web-help/anyware_manager_connector/25.06/anyware_connector/awc_connector_install/).
 
 11) We would now require a Anyware Connector token to be generated from the
     Anyware Manager Admin Console Dashboard. Kindly log into Anyware
     Manager Admin Console and follow steps 4 & 5 from the
-    [guide](https://anyware.hp.com/web-help/anyware_manager_connector/current/anyware_connector/awc_connector_install/#4-generating-a-connector-token)
+    [guide](https://anyware.hp.com/web-help/anyware_manager_connector/25.06/anyware_connector/awc_connector_install/#4-generating-a-connector-token)
     to configure the Anyware Connector as per your environmental requirement and
     the necessary flags.
 
 12) Since this setup is focused on [external
-    connections](https://anyware.hp.com/web-help/anyware_manager_connector/current/anyware_connector/awc_connector_install/#installing-the-connector-for-external-connections)
+    connections](https://anyware.hp.com/web-help/anyware_manager_connector/25.06/anyware_connector/awc_connector_install/#installing-the-connector-for-external-connections)
     also, it is recommended to set the “***enable-security-gateway***"
     flag to “***true***” and set the Public IP using the
     “--***external-pcoip-ip***" flags when executing the configure
@@ -1248,4 +1248,4 @@ Local License Server and Anyware Connector
 
 15) Open the Anyware Client and create a new connection to the Anyware Connector,
     steps can be found in the
-    [guide](https://anyware.hp.com/web-help/anyware_manager_connector/current/anyware_connector/awc_connector_install/#5-connecting-to-a-remote-workstation-with-a-pcoip-client)
+    [guide](https://anyware.hp.com/web-help/anyware_manager_connector/25.06/anyware_connector/awc_connector_install/#5-connecting-to-a-remote-workstation-with-a-pcoip-client)
