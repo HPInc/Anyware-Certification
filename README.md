@@ -433,7 +433,7 @@ all new connection attempts will fail till the update has been completed.
 > - Debug common issues.
 
 
-# HP Anyware Trusted Endpoints Ecosystem
+# HP Anyware Trusted Endpoints
 
 ### Trusted Endpoints Ecosystem - High Level Overview
 
@@ -461,13 +461,11 @@ The Trusted Zero Client is HP's next-generation standalone Anyware Client,
 securely connecting users to their HP Anyware remote desktops, as well as 
 Amazon WorkSpaces and Omnissa Horizon View using the PCoIP and Blast protocols (support for Omnissa Horizon).  
 
-Trusted Zero Clients are designed around strict zero-trust principles, providing extremely secure connections
-and ensuring device integrity wherever they are deployed. Deployments of Trusted Zero Clients
+Deployments of Trusted Zero Clients
 are monitored and managed by the Anyware Trust Center, which enforces security and configuration
 settings for each endpoint device in your deployment. 
 
-The guide explains how to set up, register, and connect to the Trusted Zero Client. 
-Key sections of the guide include the system requirements, configuration, and updating of the Trusted Zero Client. 
+The Trusted Zero Client Administrator Guide contains key sections such as the **system requirements**, **configuration**, and **updating of the Trusted Zero Client**. 
 
 > [!NOTE]
 > [Anyware Trusted Zero Client Guide Link](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/)  
@@ -476,8 +474,8 @@ Key sections of the guide include the system requirements, configuration, and up
 > A Trusted Zero Client cannot be used without Registering to a Trust Center. 
 
 > [!TIP]
-> **Key Takeaway:** Reader should be able to describe the HP Anyware Trusted Zero Client
-> navigate the administrator guide. Provide guidance on system requirements and intial setup. 
+> **Key Takeaway:** Reader should be able to describe the HP Anyware Trusted Zero Client,
+>  navigate the administrator guide, and provide guidance on system requirements and intial setup. 
 
 
 
@@ -586,12 +584,11 @@ It connects to your Trusted Zero Client endpoints and Endpoint Manager.
 
 ### Anyware Trust Center - Architecure 
 The Anyware Trust Center is an application composed of multiple components and services which communicate internally within a cluster and 
-securely communicate with Trusted Zero Clients and the Endpoint Manager. 
+securely communicate with Trusted Zero Clients and the Endpoint Manager. Trusted Zero Clients 
 
 > [!IMPORTANT]
 > **At this time, external services are not supported.**
 > Future releases of the Anyware Trust Center will support multi-node environments.
-
 
 > [!NOTE]
 > [Anyware Trust Center Persistence Link](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/current/#about-anyware-trust-center-persistence)  
@@ -602,6 +599,23 @@ securely communicate with Trusted Zero Clients and the Endpoint Manager.
 > [!TIP]
 > **Key Takeaway:** Reader should understand Trust Center application and its data persistence. 
 
+
+
+### Trust Center - Pre-Installation and DNS
+
+Pre-installation planning is highly important before setting up a Trust Center. Trusted Zero Clients are unable to communicate with the Trust Center via just raw IP Address. DNS Records must be allocated for the Trust Center and its services and must be able to communicate by FQDN. Below are example records using the domain name "example.com". 
+
+- `'tc.example.com'` - DNS record for the Trust Center
+- `'api.tc.example.com'` - DNS record for the Trust Center API endpoint
+- `'register.tc.example.com'` - DNS record regitraction endpoint
+- `'ota.tc.example.com'` - DNS record for Over the air artifactory service endpoint
+- `'endpoint-connector.tc.example.com'` - DNS record endpoint connector service enpoint
+
+> [!TIP]
+> If manually registering a Trusted Zero Client to a Trust Center, register.tc.example.com will be used.
+> 
+> [Anyware Trust Center Installation Overview](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/25.06/installation/installation-overview/)
+> **Key Takeaway** Readers should understand the DNS requirements for Anyware Trust Center
 
 
 ### Trust Center - Features 
@@ -625,6 +639,7 @@ there are several troubleshooting and support resources you can access.
 > [Troubleshooting Guide Link](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/current/troubleshooting/troubleshooting/#troubleshooting)
 >
 > [Support Guide Link](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/current/support/support/#support)
+
 
 
 
