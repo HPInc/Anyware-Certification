@@ -450,8 +450,9 @@ founded on zero-trust principles and providing extremely secure PCoIP deployment
    
 > [!TIP]
 > **Key Takeaway:** Reader should be able to identify the 3 main components of an HP Anyware Trusted Ecosystem.
+
 > [!NOTE]
-> [Anyware Trust Center ](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/current/)  
+> [Anyware Trust Center Overview](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/current/)  
 
 ## Trusted Zero Client
 
