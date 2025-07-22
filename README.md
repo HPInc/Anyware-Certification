@@ -548,7 +548,7 @@ differences between the two.
 > **Key Takeaway:** Reader should be able to differentiate feature comparison between Trusted Zero Client and Tera2 PCoIP Zero Client. 
 
 
-## Troubleshooting & Logs: 
+### Troubleshooting & Logs: 
 If you encounter a problem setting up or using the Trusted Zero Client, 
 there are several troubleshooting and support resources you can access.  
 
