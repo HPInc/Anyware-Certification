@@ -434,7 +434,226 @@ all new connection attempts will fail till the update has been completed.
 
 
 
-## Security and Certificates
+# HP Anyware Trusted Endpoints Ecosystem
+
+The Anyware Trusted Endpoints ecosystem is a robust architecture for PCoIP deployments, 
+founded on zero-trust principles and providing extremely secure PCoIP deployments. There are three primary components in the Zero Trust ecosystem: 
+
+![Alt text](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/25.06/img/illustrations/tc-to-tzc-simplified-with-user.png)
+
+- `'Trusted Zero Clients'` - used by end users to connect to their remote desktops.
+
+- `'Anyware Trust Center'` - manages the Trusted Zero Clients, enforcing policies and integrity. The Trust Center communicates with both Trusted Zero Clients and End Point Management Software 
+
+- `'Endpoint Manager/Endpoint Management Software'` - provides IT admins a graphical management intereface.
+
+   
+> [!TIP]
+> **Key Takeaway:** Reader should be able to identify the 3 main components of an HP Anyware Trusted Ecosystem.
+
+> [!NOTE]
+> [Anyware Trust Center Overview](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/current/)  
+
+## Trusted Zero Client
+
+The Trusted Zero Client is HP's next-generation standalone Anyware Client, 
+securely connecting users to their HP Anyware remote desktops, as well as 
+Amazon WorkSpaces and Omnissa Horizon View using the PCoIP and Blast protocols (support for Omnissa Horizon).  
+
+Deployments of Trusted Zero Clients
+are monitored and managed by the Anyware Trust Center, which enforces security and configuration
+settings for each endpoint device in your deployment. 
+
+The Trusted Zero Client Administrator Guide contains key sections such as the **system requirements**, **configuration**, and **updating of the Trusted Zero Client**. 
+
+> [!NOTE]
+> [Anyware Trusted Zero Client Guide Link](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/)  
+
+> [!IMPORTANT]
+> A Trusted Zero Client cannot be used without Registering to a Trust Center. 
+
+> [!TIP]
+> **Key Takeaway:** Reader should be able to describe the HP Anyware Trusted Zero Client,
+>  navigate the administrator guide, and provide guidance on system requirements and intial setup. 
+
+
+
+### Trusted Zero Client - Connecting to a Remote Host 
+The Trusted Zero Client can connect to any Windows, Linux, or macOS host 
+with an Anyware agent installed, as well as Amazon WorkSpaces desktops. 
+Connections can be made directly (client direct to host), or brokered through 
+Anyware Manager, an Anyware Connection Manager, or Omnissa (VMware) Horizon 
+using both PCoIP and Blast protocols. 
+
+You can also [automatically connect](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/connecting/automatic-connections/#automatically-connecting-to-a-session) 
+or [customize](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/connecting/custom-login-options/) your session login experience 
+
+> [!NOTE]
+> [Connecting to Remote Host Guide Link](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/connecting/connecting-remote-desktops/)
+  
+> [!TIP]
+> **Key Takeaway:** Reader should understand how to connect to a direct or managed session successfully. 
+
+Also Read:
+* [Using Smart Card to Authenticate a Session](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/connecting/smart-cards-authentication/)
+* [Connecting to a Session in Kiosk Mode](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/connecting/kiosk-mode-connection/)
+* [Connecting to Omnissa Horizon Hosts using Proximity Cards](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/connecting/imprivata-onesign-connection/)
+* [Managing Connections & Desktops](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/connecting/managing-connections-desktops/)
+* [Disconnecting from a Remote Host](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/connecting/disconnecting/)
+ 
+
+### Trusted Zero Client - Features 
+
+[Audio](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/features/audio/): Stereo audio output and mono audio input are supported and enabled by default. 
+
+[Connection Health Indicator](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/features/connection-health/): The Connection Health Indicator gives you quick feedback on the quality of your active remote session. 
+
+[Display Support](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/features/displays/): The Trusted Zero Client supports a maximum of four displays, with a maximum resolution of 4K UHD (3840×2160). 
+
+[USB Support](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/features/usb/usb/): The Trusted Zero Client supports redirecting USB devices to a remote session. Administrators can set rules governing allowed and disallowed devices, device classes, or device protocols. 
+
+> [!TIP]
+> **Key Takeaway:** Reader should be able to explain the major Trusted Zero Client features. 
+
+
+ 
+### Trusted Zero Client - Settings and Configuration
+The Trusted Zero Client allows users to configure a limited number of settings 
+via the pre-session interface (before connecting to a remote session). 
+All configuration settings are available from the Settings menu at the top 
+of the Trusted Zero Client pre-session display. 
+
+> [!NOTE]
+> [Trusted Zero Client Settings Guide Link](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/configuration/settings/)  
+
+> [!TIP]
+> **Key Takeaway:** Reader should be able to find the Trusted Zero Client settings and understand how to make configuration changes. 
+ 
+
+
+### Tera2 Feature Comparison 
+The Trusted Zero Client and Tera2 Zero Client are different devices with different functionality. This page highlights some of the important 
+differences between the two. 
+
+> [!NOTE]
+> [Feature Comparison Guide Link](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/reference/tera2-faq/)  
+
+> [!TIP]
+> **Key Takeaway:** Reader should understand the major differences between the Anyware Trusted Zero Client and Legacy Tera2 PCoIP Zero Client.
+
+
+### Trusted Zero Client - Troubleshooting & Logs
+If you encounter a problem setting up or using the Trusted Zero Client, 
+there are several troubleshooting and support resources you can access.  
+
+The Trusted Zero Client and its related components, including the Trust Center 
+and the PCoIP agent, write log files that document processes and interactions 
+with other services.
+
+> [!NOTE]
+> [Troubleshooting Guide Link](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/support/support/)
+>
+> [Logs Guide Link](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/support/support/#logs)
+
+> [!TIP]
+> **Key Takeaway:** Reader should understand how to view logs and generate a support bundle.
+
+
+## Anyware Trust Center 
+
+The Anyware Trust Center provides a management and security plane for a Trusted Zero Client deployment. 
+Using the Anyware Trust Center, administrators can register Trusted Zero Clients, manage their capabilities 
+and features, enable and disable connections, and monitor access behavior. 
+
+The Anyware Trust Center is an application composed of multiple services on a single VM. In addition to its internal services, it also communicates with your Trusted Zero Client endpoints, Endpoint Manager/EMS, and the OTA Repository.
+
+- `TCP:32443` - Used for communication between the Trust Center and the Trusted Zero Clients. 
+- `TCP:32443` - Used for communication between the Trust Center and Endpoint Management Software.
+- `TCP:443` - 443/HTTPS is used by the Trust Center to communicate with the OTA repository.
+
+
+> [!NOTE]
+> [Anyware Trust Center Admin Guide - Architecture](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/current/)  
+
+> [!IMPORTANT]
+> The Anyware Trust Center is an API service and **has no user interface.**
+> All user interaction and interfaces are provided by Endpoint Manager, also called Endpoint Management Software (EMS).
+> Endpoint Management Software is available from the hardware manufacturer of your Trusted Zero Client.
+> Be sure to confirm that your Endpoint Management Software is compatible with the Trust Center version you intend to use. 
+
+> [!TIP]
+> **Key Takeaway:** Reader should be able to describe the functionality of the HP Anyware Trust Center, the components it interfaces with, and navigate the administrator guide. 
+
+
+
+### Anyware Trust Center - Architecure 
+The Anyware Trust Center is an application composed of multiple components and services which communicate internally within a cluster and 
+securely communicate with Trusted Zero Clients and the Endpoint Manager. Trusted Zero Clients 
+
+
+> [!IMPORTANT]
+> **At this time, external services are not supported.**
+> Future releases of the Anyware Trust Center will support multi-node environments.
+
+
+> [!NOTE]
+> [Anyware Trust Center Persistence Link](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/current/#about-anyware-trust-center-persistence)  
+
+
+> [!IMPORTANT]
+> We recommend backing up the Anyware Trust Center and all persistent storage volumes.
+
+
+> [!TIP]
+> **Key Takeaway:** Reader should understand Trust Center application and its data persistence. 
+
+
+
+### Trust Center - Pre-Installation and DNS
+
+Pre-installation planning is highly important before setting up a Trust Center. Trusted Zero Clients are unable to communicate with the Trust Center via just raw IP Address. DNS Records must be allocated for the Trust Center and its services and must be able to communicate by FQDN. Below are example records using the domain name "example.com". 
+
+
+- `'tc.example.com'` - DNS record for the Trust Center
+- `'api.tc.example.com'` - DNS record for the Trust Center API endpoint
+- `'register.tc.example.com'` - DNS record regitraction endpoint
+- `'ota.tc.example.com'` - DNS record for Over the air artifactory service endpoint
+- `'endpoint-connector.tc.example.com'` - DNS record endpoint connector service enpoint
+
+
+> [!TIP]
+> If manually registering a Trusted Zero Client to a Trust Center, register.tc.example.com will be used.
+> 
+> [Anyware Trust Center Installation Overview](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/25.06/installation/installation-overview/)
+> **Key Takeaway** Readers should understand the DNS requirements for Anyware Trust Center
+
+
+### Trust Center - Features 
+
+[Licensing and Subscription Tiers](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/current/features/tc-management-features/#about-licensing-and-subscription-tiers): Most Anyware Trust Center functionality requires a subscription. Basic functionality is available for free for users who have small deployments, or who are testing proof-of-concept scenarios. 
+
+[Endpoint Management](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/current/features/tc-management-features/#endpoint-management): The Anyware Trust Center can manage many endpoint devices.
+
+[Anyware Trust Center Management](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/current/features/tc-management-features/#anyware-trust-center-management): Any number of users can access the Anyware Trust Center via your EMS software at once.
+
+> [!TIP]
+> **Key Takeaway:** Reader should be able explain the major Trust Center features. Provide guidance on system requirements and setup.
+
+
+
+### Trust Center - Troubleshooting & Logs
+If you encounter a problem setting up or using the Anyware Trust Center, 
+there are several troubleshooting and support resources you can access.  
+
+> [!NOTE]
+> [Troubleshooting Guide Link](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/current/troubleshooting/troubleshooting/#troubleshooting)
+>
+> [Support Guide Link](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/current/support/support/#support)
+
+
+
+
+# Anyware Security and Certificates
 
 HP Anyware Products provide native and customizable security features.
 Once of the most important and often customized are the certificates.
@@ -477,9 +696,9 @@ Read:
 * [General certificate info](https://anyware.hp.com/knowledge/understanding-digital-certificates)
 * [Connector Certificate Preparation](https://anyware.hp.com/web-help/anyware_manager_connector/current/anyware_connector/prerequisite/awc_expected_cert/)
 
-## Third party Broker + Connection Manager/Security Gateway (CMSG)
+# Third party Broker + Connection Manager/Security Gateway (CMSG)
 
-### PCoIP Connection Broker Protocol Overview
+## PCoIP Connection Broker Protocol Overview
 
 The PCoIP Connection Broker Protocol (hereafter referred to as the
 Broker Protocol) is a web application program interface (API) used by
@@ -605,6 +824,16 @@ Manager (SaaS). Instead, please verify the following:
 4.  [Windows Download Link](https://anyware.hp.com/find/product/hp-anyware/current/license-server-for-windows)
 
 5.  [Windows Installation Link](https://anyware.hp.com/web-help/pcoip_license_server/windows/current/installation/installing-windows-license-server/)
+
+
+## Anyware Trust Center
+
+1.  [Trust Center Download Link](https://anyware.hp.com/find/product/anyware-trusted-endpoints/current/anyware-trust-center)
+
+2.  [Trust Center Online Installation Link](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/current/installation/installation-single-node/)
+  
+4.  [Trust Center Darksite Installation Link](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/current/installation/installation-single-darksite/)
+
 
 # Troubleshooting
 
