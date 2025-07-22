@@ -652,7 +652,7 @@ there are several troubleshooting and support resources you can access.
 
 
 
-## Anyware Security and Certificates
+# Anyware Security and Certificates
 
 HP Anyware Products provide native and customizable security features.
 Once of the most important and often customized are the certificates.
@@ -695,9 +695,9 @@ Read:
 * [General certificate info](https://anyware.hp.com/knowledge/understanding-digital-certificates)
 * [Connector Certificate Preparation](https://anyware.hp.com/web-help/anyware_manager_connector/current/anyware_connector/prerequisite/awc_expected_cert/)
 
-## Third party Broker + Connection Manager/Security Gateway (CMSG)
+# Third party Broker + Connection Manager/Security Gateway (CMSG)
 
-### PCoIP Connection Broker Protocol Overview
+## PCoIP Connection Broker Protocol Overview
 
 The PCoIP Connection Broker Protocol (hereafter referred to as the
 Broker Protocol) is a web application program interface (API) used by
@@ -823,6 +823,16 @@ Manager (SaaS). Instead, please verify the following:
 4.  [Windows Download Link](https://anyware.hp.com/find/product/hp-anyware/current/license-server-for-windows)
 
 5.  [Windows Installation Link](https://anyware.hp.com/web-help/pcoip_license_server/windows/current/installation/installing-windows-license-server/)
+
+
+## Anyware Trust Center
+
+1.  [Trust Center Download Link](https://anyware.hp.com/find/product/anyware-trusted-endpoints/current/anyware-trust-center)
+
+2.  [Trust Center Online Installation Link](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/current/installation/installation-single-node/)
+  
+4.  [Trust Center Darksite Installation Link](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/current/installation/installation-single-darksite/)
+
 
 # Troubleshooting
 
