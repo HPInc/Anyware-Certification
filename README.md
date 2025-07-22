@@ -564,8 +564,12 @@ The Anyware Trust Center provides a management and security plane for a Trusted 
 Using the Anyware Trust Center, administrators can register Trusted Zero Clients, manage their capabilities 
 and features, enable and disable connections, and monitor access behavior. 
 
-The Anyware Trust Center is an application composed of multiple services on a single VM. 
-It connects to your Trusted Zero Client endpoints and Endpoint Manager. 
+The Anyware Trust Center is an application composed of multiple services on a single VM. In addition to its internal services, it also communicates with your Trusted Zero Client endpoints, Endpoint Manager/EMS, and the OTA Repository.
+
+- `TCP:32443` - Used for communication between the Trust Center and the Trusted Zero Clients. 
+- `TCP:32443` - Used for communication between the Trust Center and Endpoint Management Software.
+- `TCP:443` - 443/HTTPS is used by the Trust Center to communicate with the OTA repository.
+
 
 > [!NOTE]
 > [Anyware Trust Center Admin Guide Link](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/current/)  
@@ -577,7 +581,7 @@ It connects to your Trusted Zero Client endpoints and Endpoint Manager.
 > Be sure to confirm that your Endpoint Management Software is compatible with the Trust Center version you intend to use. 
 
 > [!TIP]
-> **Key Takeaway:** Reader should be able to describe the functionality of the HP Anyware Trust Center and navigate the administrator guide. 
+> **Key Takeaway:** Reader should be able to describe the functionality of the HP Anyware Trust Center, the components it interfaces with, and navigate the administrator guide. 
 
 
 
