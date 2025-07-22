@@ -433,9 +433,8 @@ all new connection attempts will fail till the update has been completed.
 > - Debug common issues.
 
 
-# HP Anyware Trusted Endpoints
 
-### Trusted Endpoints Ecosystem - High Level Overview
+# HP Anyware Trusted Endpoints Ecosystem
 
 The Anyware Trusted Endpoints ecosystem is a robust architecture for PCoIP deployments, 
 founded on zero-trust principles and providing extremely secure PCoIP deployments. There are three primary components in the Zero Trust ecosystem: 
@@ -448,14 +447,13 @@ founded on zero-trust principles and providing extremely secure PCoIP deployment
 
 - `'Endpoint Manager/Endpoint Management Software'` - provides IT admins a graphical management intereface.
 
-
    
 > [!TIP]
 > **Key Takeaway:** Reader should be able to identify the 3 main components of an HP Anyware Trusted Ecosystem.
 > [!NOTE]
 > [Anyware Trust Center ](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/current/)  
 
-### Trusted Zero Client - Overview 
+### Trusted Zero Client
 
 The Trusted Zero Client is HP's next-generation standalone Anyware Client, 
 securely connecting users to their HP Anyware remote desktops, as well as 
@@ -479,7 +477,7 @@ The Trusted Zero Client Administrator Guide contains key sections such as the **
 
 
 
-### Trusted Zero Client - Connecting to a Remote Host 
+#### Trusted Zero Client - Connecting to a Remote Host 
 The Trusted Zero Client can connect to any Windows, Linux, or macOS host 
 with an Anyware agent installed, as well as Amazon WorkSpaces desktops. 
 Connections can be made directly (client direct to host), or brokered through 
@@ -503,7 +501,7 @@ Also Read:
 * [Disconnecting from a Remote Host](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/connecting/disconnecting/)
  
 
-### Trusted Zero Client - Features 
+#### Trusted Zero Client - Features 
 
 [Audio](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/current/features/audio/): Stereo audio output and mono audio input are supported and enabled by default. 
 
@@ -518,7 +516,7 @@ Also Read:
 
 
  
-### Trusted Zero Client - Settings and Configuration
+#### Trusted Zero Client - Settings and Configuration
 The Trusted Zero Client allows users to configure a limited number of settings 
 via the pre-session interface (before connecting to a remote session). 
 All configuration settings are available from the Settings menu at the top 
@@ -532,7 +530,7 @@ of the Trusted Zero Client pre-session display.
  
 
 
-### Tera2 Feature Comparison 
+#### Tera2 Feature Comparison 
 The Trusted Zero Client and Tera2 Zero Client are different devices with different functionality. This page highlights some of the important 
 differences between the two. 
 
@@ -543,7 +541,7 @@ differences between the two.
 > **Key Takeaway:** Reader should understand the major differences between the Anyware Trusted Zero Client and Legacy Tera2 PCoIP Zero Client.
 
 
-### Trusted Zero Client - Troubleshooting & Logs: 
+#### Trusted Zero Client - Troubleshooting & Logs: 
 If you encounter a problem setting up or using the Trusted Zero Client, 
 there are several troubleshooting and support resources you can access.  
 
@@ -559,7 +557,7 @@ with other services.
 > **Key Takeaway:** Reader should understand how to view logs and generate a support bundle.
 
 
-### Trust Center - Overview
+### Anyware Trust Center 
 
 The Anyware Trust Center provides a management and security plane for a Trusted Zero Client deployment. 
 Using the Anyware Trust Center, administrators can register Trusted Zero Clients, manage their capabilities 
@@ -582,34 +580,40 @@ It connects to your Trusted Zero Client endpoints and Endpoint Manager.
 
 
 
-### Anyware Trust Center - Architecure 
+#### Anyware Trust Center - Architecure 
 The Anyware Trust Center is an application composed of multiple components and services which communicate internally within a cluster and 
 securely communicate with Trusted Zero Clients and the Endpoint Manager. Trusted Zero Clients 
+
 
 > [!IMPORTANT]
 > **At this time, external services are not supported.**
 > Future releases of the Anyware Trust Center will support multi-node environments.
 
+
 > [!NOTE]
 > [Anyware Trust Center Persistence Link](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/current/#about-anyware-trust-center-persistence)  
 
+
 > [!IMPORTANT]
 > We recommend backing up the Anyware Trust Center and all persistent storage volumes.
+
 
 > [!TIP]
 > **Key Takeaway:** Reader should understand Trust Center application and its data persistence. 
 
 
 
-### Trust Center - Pre-Installation and DNS
+#### Trust Center - Pre-Installation and DNS
 
 Pre-installation planning is highly important before setting up a Trust Center. Trusted Zero Clients are unable to communicate with the Trust Center via just raw IP Address. DNS Records must be allocated for the Trust Center and its services and must be able to communicate by FQDN. Below are example records using the domain name "example.com". 
+
 
 - `'tc.example.com'` - DNS record for the Trust Center
 - `'api.tc.example.com'` - DNS record for the Trust Center API endpoint
 - `'register.tc.example.com'` - DNS record regitraction endpoint
 - `'ota.tc.example.com'` - DNS record for Over the air artifactory service endpoint
 - `'endpoint-connector.tc.example.com'` - DNS record endpoint connector service enpoint
+
 
 > [!TIP]
 > If manually registering a Trusted Zero Client to a Trust Center, register.tc.example.com will be used.
@@ -618,7 +622,7 @@ Pre-installation planning is highly important before setting up a Trust Center. 
 > **Key Takeaway** Readers should understand the DNS requirements for Anyware Trust Center
 
 
-### Trust Center - Features 
+#### Trust Center - Features 
 
 [Licensing and Subscription Tiers](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/current/features/tc-management-features/#about-licensing-and-subscription-tiers): Most Anyware Trust Center functionality requires a subscription. Basic functionality is available for free for users who have small deployments, or who are testing proof-of-concept scenarios. 
 
@@ -631,7 +635,7 @@ Pre-installation planning is highly important before setting up a Trust Center. 
 
 
 
-### Trust Center - Troubleshooting & Logs: 
+#### Trust Center - Troubleshooting & Logs: 
 If you encounter a problem setting up or using the Anyware Trust Center, 
 there are several troubleshooting and support resources you can access.  
 
