@@ -445,7 +445,7 @@ founded on zero-trust principles and providing extremely secure PCoIP deployment
 
 - `'Anyware Trust Center'` - manages the Trusted Zero Clients, enforcing policies and integrity. The Trust Center communicates with both Trusted Zero Clients and End Point Management Software 
 
-- `'Endpoint Manager/Endpoint Management Software'` - provides IT admins a graphical management intereface.
+- `'Endpoint Manager/Endpoint Management Software'` - provides IT admins a graphical management interface.
 
    
 > [!TIP]
@@ -616,9 +616,9 @@ Pre-installation planning is highly important before setting up a Trust Center. 
 
 - `'tc.example.com'` - DNS record for the Trust Center
 - `'api.tc.example.com'` - DNS record for the Trust Center API endpoint
-- `'register.tc.example.com'` - DNS record regitraction endpoint
+- `'register.tc.example.com'` - DNS record registration endpoint
 - `'ota.tc.example.com'` - DNS record for Over the air artifactory service endpoint
-- `'endpoint-connector.tc.example.com'` - DNS record endpoint connector service enpoint
+- `'endpoint-connector.tc.example.com'` - DNS record endpoint connector service endpoint
 
 
 > [!TIP]
@@ -1252,7 +1252,7 @@ Local License Server and Anyware Connector
     [guide](https://anyware.hp.com/web-help/anyware_manager_connector/25.06/anyware_connector/awc_connector_install/#5-connecting-to-a-remote-workstation-with-a-pcoip-client)
 
 
-## Simulation Lab 4: 
+## Simulation Lab 4: HPA Trusted Endpoint Ecosystem 
 The goal of this simulation lab is to setup a working 
 HP Anyware Trusted Endpoint environment using
 Trust Center and Trusted Zero Client
