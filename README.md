@@ -432,7 +432,7 @@ all new connection attempts will fail till the update has been completed.
 > - Provide guidance on key configuration options – authentication, Federated Authentication, MFA, Internal vs External traffic.
 > - Debug common issues.
 
-
+***
 
 # HP Anyware Trusted Endpoints Ecosystem
 
@@ -652,7 +652,7 @@ there are several troubleshooting and support resources you can access.
 > [Support Guide Link](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/current/support/support/#support)
 
 
-
+***
 
 # Anyware Security and Certificates
 
@@ -696,6 +696,8 @@ Read:
 * [Architecture Guide \| Security](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.07/security/security/)
 * [General certificate info](https://anyware.hp.com/knowledge/understanding-digital-certificates)
 * [Connector Certificate Preparation](https://anyware.hp.com/web-help/anyware_manager_connector/25.06/anyware_connector/prerequisite/awc_expected_cert/)
+
+*** 
 
 # Third party Broker + Connection Manager/Security Gateway (CMSG)
 
@@ -761,6 +763,8 @@ Gateway.
 > **Key Takeaway:** Reader should be able to provide guidance on
 > third-party connection brokers and how they interface with the Anyware
 > Connection Manager and Security Gateway (CMSG).
+
+***
 
 # Component Links
 
@@ -835,6 +839,7 @@ Manager (SaaS). Instead, please verify the following:
   
 4.  [Trust Center Darksite Installation Link](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/current/installation/installation-single-darksite/)
 
+***
 
 # Troubleshooting
 
@@ -1049,6 +1054,7 @@ In the event a technical issue cannot be resolved, issues can be escalated via a
     Connector](https://anyware.hp.com/knowledge/how-to-configure-an-amazon-network-load-balancer-nlb-with-the-pcoip-connection-manager)
 
 
+***
 
 # Practical Training
 
@@ -1285,8 +1291,9 @@ Trust Center and Trusted Zero Client.
    and **the offline machine** which will host the Anyware Trust Center.
    the [Admin guide](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/25.06/introduction/requirements/#darksite-system-requirements)
    to setup the machines as per requirements. 
+
    
-> [!NOTE]
+> [!CAUTION]
 > When using the Darksite/Airgapped method, the OS on the temporary internet-connected machine must be **exactly identical** to OS of the darksite (unconnected) machine.
 > Differences can cause the installation to fail due missing packages or conflicts.  
 
