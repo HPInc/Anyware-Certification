@@ -1344,14 +1344,12 @@ Trust Center and Trusted Zero Client.
    in the [Admin Guide - Connecting to a Remote Host](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/25.06/connecting/connecting-remote-desktops/#connecting-to-a-remote-host)
    to create your first connection.
 
-   >[!TIP] 
+   > 
    > The Trusted Zero Client can connect to any Windows, Linux, or macOS host
    > with an Anyware agent installed, as well as [Amazon WorkSpaces desktops](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/25.06/connecting/connecting-remote-desktops/#connecting-to-amazon-workspaces).
    > Connections can be made directly (client direct to host), or brokered
    > through Anyware Manager, an Anyware Connection Manager, or [Omnissa Horizon](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/25.06/connecting/connecting-remote-desktops/#connecting-to-omnissa-horizon)
-   > using both PCoIP and Blast protocols. Please follow the steps provided
-   > in the [Admin Guide](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/25.06/connecting/connecting-remote-desktops/#connecting-to-a-remote-host)
-   > to create your first connection. 
+   > using both PCoIP and Blast protocols. 
 
 
 
