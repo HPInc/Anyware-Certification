@@ -432,7 +432,7 @@ all new connection attempts will fail till the update has been completed.
 > - Provide guidance on key configuration options – authentication, Federated Authentication, MFA, Internal vs External traffic.
 > - Debug common issues.
 
-
+***
 
 # HP Anyware Trusted Endpoints Ecosystem
 
@@ -445,7 +445,7 @@ founded on zero-trust principles and providing extremely secure PCoIP deployment
 
 - `'Anyware Trust Center'` - manages the Trusted Zero Clients, enforcing policies and integrity. The Trust Center communicates with both Trusted Zero Clients and End Point Management Software 
 
-- `'Endpoint Manager/Endpoint Management Software'` - provides IT admins a graphical management intereface.
+- `'Endpoint Manager/Endpoint Management Software'` - provides IT admins a graphical management interface.
 
    
 > [!TIP]
@@ -616,15 +616,16 @@ Pre-installation planning is highly important before setting up a Trust Center. 
 
 - `'tc.example.com'` - DNS record for the Trust Center
 - `'api.tc.example.com'` - DNS record for the Trust Center API endpoint
-- `'register.tc.example.com'` - DNS record regitraction endpoint
+- `'register.tc.example.com'` - DNS record registration endpoint
 - `'ota.tc.example.com'` - DNS record for Over the air artifactory service endpoint
-- `'endpoint-connector.tc.example.com'` - DNS record endpoint connector service enpoint
+- `'endpoint-connector.tc.example.com'` - DNS record endpoint connector service endpoint
 
 
 > [!TIP]
 > If manually registering a Trusted Zero Client to a Trust Center, register.tc.example.com will be used.
 > 
 > [Anyware Trust Center Installation Overview](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/25.06/installation/installation-overview/)
+> 
 > **Key Takeaway** Readers should understand the DNS requirements for Anyware Trust Center
 
 
@@ -651,7 +652,7 @@ there are several troubleshooting and support resources you can access.
 > [Support Guide Link](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/current/support/support/#support)
 
 
-
+***
 
 # Anyware Security and Certificates
 
@@ -695,6 +696,8 @@ Read:
 * [Architecture Guide \| Security](https://anyware.hp.com/web-help/pcoip/anyware-architecture-guide/2024.07/security/security/)
 * [General certificate info](https://anyware.hp.com/knowledge/understanding-digital-certificates)
 * [Connector Certificate Preparation](https://anyware.hp.com/web-help/anyware_manager_connector/25.06/anyware_connector/prerequisite/awc_expected_cert/)
+
+*** 
 
 # Third party Broker + Connection Manager/Security Gateway (CMSG)
 
@@ -760,6 +763,8 @@ Gateway.
 > **Key Takeaway:** Reader should be able to provide guidance on
 > third-party connection brokers and how they interface with the Anyware
 > Connection Manager and Security Gateway (CMSG).
+
+***
 
 # Component Links
 
@@ -834,6 +839,7 @@ Manager (SaaS). Instead, please verify the following:
   
 4.  [Trust Center Darksite Installation Link](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/current/installation/installation-single-darksite/)
 
+***
 
 # Troubleshooting
 
@@ -1048,12 +1054,13 @@ In the event a technical issue cannot be resolved, issues can be escalated via a
     Connector](https://anyware.hp.com/knowledge/how-to-configure-an-amazon-network-load-balancer-nlb-with-the-pcoip-connection-manager)
 
 
+***
 
 # Practical Training
 
 ## Simulation Lab 1: Unmanaged Direct Connections
 
-The goal of this simulation Lab is to setup and establish an Internal
+The goal of this simulation lab is to setup and establish an Internal
 unmanaged (direct connection) between Windows Client and Windows
 Standard Agent. The steps are similar for Linux and Mac OS (Operating
 System).
@@ -1090,7 +1097,7 @@ Agent.*
 
 ## Simulation Lab 2: Brokered Internal Connections using AWC and Manager SaaS
 
-The goal of this simulation is to establish an internal brokered
+The goal of this simulation lab is to establish an internal brokered
 connection between Windows Client and Windows Agent using Anyware
 Connector and Anyware Manager as a Service
 
@@ -1249,3 +1256,105 @@ Local License Server and Anyware Connector
 15) Open the Anyware Client and create a new connection to the Anyware Connector,
     steps can be found in the
     [guide](https://anyware.hp.com/web-help/anyware_manager_connector/25.06/anyware_connector/awc_connector_install/#5-connecting-to-a-remote-workstation-with-a-pcoip-client)
+
+
+## Simulation Lab 4: HPA Trusted Endpoint Ecosystem 
+The goal of this simulation lab is to understand how to setup a basic 
+HP Anyware Trusted Endpoint environment using
+Trust Center and Trusted Zero Client.
+
+
+> [!NOTE]
+> While not covered in this Lab, Endpoint Management Software is a critical component used to manage the devices and their Firmware.
+> Endpoint Management Software and documentation is provided by the each Trusted Zero Client vendor.
+> The current HP Anyware Branded EMS is provided by Leadtek and is expected to work with any model of Trusted Zero Client.
+> Please consult the vendor specific documentation for more info.
+
+### Prerequisites
+1)  We will be setting up an instance of the Anyware Trust Center and then register
+    our Trusted Zero Client to it. Please ensure the prerequisite port & network
+    requirements are met by following the respective
+    [Trust Center](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/25.06/installation/installation-single-node/#step-i-create-a-new-vm)
+    & [Trusted Zero Client](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/25.06/introduction/requirements/#requirements)
+    product guidelines. 
+
+2) The Anyware Trust Center can be installed in 2 ways,
+   Internet-connected or dark-site environment.
+   **We will use the Internet-connected method** in this Simulation Lab.
+
+
+   a. For the Internet-connected setup, ready a machine
+   that meets the following: [minimum requirements](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/25.06/introduction/requirements/#system-requirements)
+   
+   b. For Dark-site/Airgapped environments, setup requires two machines:
+   a **temporary internet-connected machine** to assemble the installer bundle,
+   and **the offline machine** which will host the Anyware Trust Center.
+   the [Admin guide](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/25.06/introduction/requirements/#darksite-system-requirements)
+   to setup the machines as per requirements. 
+
+   
+> [!CAUTION]
+> When using the Darksite/Airgapped method, the OS on the temporary internet-connected machine must be **exactly identical** to OS of the darksite (unconnected) machine.
+> Differences can cause the installation to fail due missing packages or conflicts.  
+
+
+3) Since the Anyware Trust Center does not support communication via raw IP addresses,
+   FQDN (FullyQualifiedDomainNames) will be required.
+   Identify or create 1 base domain for the Anyware Trust Center
+   which will be used to construct other 4 subdomains. You will use this 
+   in multiple locations during setup, so record this info.
+
+5) Next, we will use the base domain to create the respective DNS records.
+   Please follow the example outlined in the [guide](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/25.06/installation/installation-single-node/#step-ii-choose-a-domain-name)
+
+
+> [!NOTE]
+> The subdomain DNS records which can be either A-records or CNAMEs,
+> should be pointing to the same IP Address of the Trust Center,
+> or CNAMEs aliasing to the base Trust Center FQDN.
+>
+> If you plan to support automatic Anyware Trust Center discovery by endpoints,
+> you must also create a **CNAME record** that redirects **_anywaretrustcenter_** to **_register.<domain-name>_**
+
+
+### Trust Center - Installation
+
+
+5) Next, follow  Steps 4 to 6 from the [Admin Guide](https://anyware.hp.com/web-help/trusted-endpoints/trust-center/25.06/installation/installation-single-node/#step-iv-get-the-installation-script)
+   to perform below steps;
+   a. Obtaining  Trust Center Installation script from the download site
+   by providing the base domain name determined earlier
+   b. Verify or create a default gateway for communication with Trusted Zero client
+   c. Execute the Installation script.
+
+6) At this point, the Trust Center should be installed. To verify the installation was successful, run the following command: 
+   _**sudo ./trust-center-ctl diagnose**_
+   All the services should report healthy.
+
+### Registering a Trusted Zero Client
+
+7) If the Trusted Zero Client is being powered up for the
+   first time, you will be prompted to setup the inital configuration.
+   Complete the setup using the steps in the [Admin Guide](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/25.06/setup/initial-setup/#setting-up-the-trusted-zero-client)
+   
+8) Before the Trusted Zero CLient can be used, it must registered to
+   your Trust Center. Steps to register the TZC can be found [here](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/25.06/setup/initial-setup/#setting-up-the-trusted-zero-client)
+
+9) Please follow the steps provided
+   in the [Admin Guide - Connecting to a Remote Host](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/25.06/connecting/connecting-remote-desktops/#connecting-to-a-remote-host)
+   to create your first connection.
+
+   >[!TIP] 
+   > The Trusted Zero Client can connect to any Windows, Linux, or macOS host
+   > with an Anyware agent installed, as well as [Amazon WorkSpaces desktops](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/25.06/connecting/connecting-remote-desktops/#connecting-to-amazon-workspaces).
+   > Connections can be made directly (client direct to host), or brokered
+   > through Anyware Manager, an Anyware Connection Manager, or [Omnissa Horizon](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/25.06/connecting/connecting-remote-desktops/#connecting-to-omnissa-horizon)
+   > using both PCoIP and Blast protocols. Please follow the steps provided
+   > in the [Admin Guide](https://anyware.hp.com/web-help/trusted-endpoints/trusted-zero-client/25.06/connecting/connecting-remote-desktops/#connecting-to-a-remote-host)
+   > to create your first connection. 
+
+
+
+# Congrats!
+
+
